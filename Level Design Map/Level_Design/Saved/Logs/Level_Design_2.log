@@ -1,0 +1,1768 @@
+﻿Log file open, 11/30/16 17:36:07
+LogInit:Display: Running engine for game: Level_Design
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(42459761) SRandInit(42459761).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.069138
+LogPluginManager: Loaded Plugin Paper2D, From D:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/2D/Paper2D/Paper2D.uplugin
+LogPluginManager: Loaded Plugin LightPropagationVolume, From D:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Blendables/LightPropagationVolume/LightPropagationVolume.uplugin
+LogPluginManager: Loaded Plugin BlankPlugin, From D:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/BlankPlugin/BlankPlugin.uplugin
+LogPluginManager: Loaded Plugin CodeLiteSourceCodeAccess, From D:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/CodeLiteSourceCodeAccess/CodeLiteSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin GitSourceControl, From D:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/GitSourceControl/GitSourceControl.uplugin
+LogPluginManager: Loaded Plugin KDevelopSourceCodeAccess, From D:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/KDevelopSourceCodeAccess/KDevelopSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin NullSourceCodeAccess, From D:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/NullSourceCodeAccess/NullSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin OneSkyLocalizationService, From D:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/OneSkyLocalizationService/OneSkyLocalizationService.uplugin
+LogPluginManager: Loaded Plugin PerforceSourceControl, From D:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/PerforceSourceControl/PerforceSourceControl.uplugin
+LogPluginManager: Loaded Plugin SubversionSourceControl, From D:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/SubversionSourceControl/SubversionSourceControl.uplugin
+LogPluginManager: Loaded Plugin UObjectPlugin, From D:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/UObjectPlugin/UObjectPlugin.uplugin
+LogPluginManager: Loaded Plugin VisualStudioSourceCodeAccess, From D:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/VisualStudioSourceCodeAccess/VisualStudioSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin XCodeSourceCodeAccess, From D:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/XCodeSourceCodeAccess/XCodeSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin AudioCapture, From D:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Editor/AudioCapture/AudioCapture.uplugin
+LogPluginManager: Loaded Plugin EpicSurvey, From D:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Editor/EpicSurvey/EpicSurvey.uplugin
+LogPluginManager: Loaded Plugin MacGraphicsSwitching, From D:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Editor/MacGraphicsSwitching/MacGraphicsSwitching.uplugin
+LogPluginManager: Loaded Plugin MobileLauncherProfileWizard, From D:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Editor/MobileLauncherProfileWizard/MobileLauncherProfileWizard.uplugin
+LogPluginManager: Loaded Plugin PluginBrowser, From D:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Editor/PluginBrowser/PluginBrowser.uplugin
+LogPluginManager: Loaded Plugin SpeedTreeImporter, From D:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Editor/SpeedTreeImporter/SpeedTreeImporter.uplugin
+LogPluginManager: Loaded Plugin SuperSearchEditor, From D:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Editor/SuperSearchEditor/SuperSearchEditor.uplugin
+LogPluginManager: Loaded Plugin AlembicImporter, From D:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/AlembicImporter/AlembicImporter.uplugin
+LogPluginManager: Loaded Plugin BlueprintStats, From D:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/BlueprintStats/BlueprintStats.uplugin
+LogPluginManager: Loaded Plugin CharacterAI, From D:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/CharacterAI/CharacterAI.uplugin
+LogPluginManager: Loaded Plugin CodeEditor, From D:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/CodeEditor/CodeEditor.uplugin
+LogPluginManager: Loaded Plugin CodeView, From D:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/CodeView/CodeView.uplugin
+LogPluginManager: Loaded Plugin HTML5Networking, From D:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/HTML5Networking/HTML5Networking.uplugin
+LogPluginManager: Loaded Plugin OSVR, From D:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/OSVR/OSVR.uplugin
+LogPluginManager: Loaded Plugin Phya, From D:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/Phya/Phya.uplugin
+LogPluginManager: Loaded Plugin SignificanceManager, From D:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/SignificanceManager/SignificanceManager.uplugin
+LogPluginManager: Loaded Plugin SimpleHMD, From D:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/SimpleHMD/SimpleHMD.uplugin
+LogPluginManager: Loaded Plugin StereoPanorama, From D:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/StereoPanorama/StereoPanorama.uplugin
+LogPluginManager: Loaded Plugin StructBox, From D:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/StructBox/StructBox.uplugin
+LogPluginManager: Loaded Plugin AndroidMedia, From D:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Media/AndroidMedia/AndroidMedia.uplugin
+LogPluginManager: Loaded Plugin AvfMedia, From D:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Media/AvfMedia/AvfMedia.uplugin
+LogPluginManager: Loaded Plugin MediaPlayerEditor, From D:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Media/MediaPlayerEditor/MediaPlayerEditor.uplugin
+LogPluginManager: Loaded Plugin WmfMedia, From D:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Media/WmfMedia/WmfMedia.uplugin
+LogPluginManager: Loaded Plugin MessagingDebugger, From D:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Messaging/MessagingDebugger/MessagingDebugger.uplugin
+LogPluginManager: Loaded Plugin TcpMessaging, From D:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Messaging/TcpMessaging/TcpMessaging.uplugin
+LogPluginManager: Loaded Plugin UdpMessaging, From D:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Messaging/UdpMessaging/UdpMessaging.uplugin
+LogPluginManager: Loaded Plugin LevelSequenceEditor, From D:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/MovieScene/LevelSequenceEditor/LevelSequenceEditor.uplugin
+LogPluginManager: Loaded Plugin MatineeToLevelSequence, From D:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/MovieScene/MatineeToLevelSequence/MatineeToLevelSequence.uplugin
+LogPluginManager: Loaded Plugin NetcodeUnitTest, From D:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/NetcodeUnitTest/NetcodeUnitTest/NetcodeUnitTest.uplugin
+LogPluginManager: Loaded Plugin NUTUnrealEngine4, From D:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/NetcodeUnitTest/NUTUnrealEngine4/NUTUnrealEngine4.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemGameCircle, From D:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/Android/OnlineSubsystemGameCircle/OnlineSubsystemGameCircle.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemGooglePlay, From D:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/Android/OnlineSubsystemGooglePlay/OnlineSubsystemGooglePlay.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemIOS, From D:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/IOS/OnlineSubsystemIOS/OnlineSubsystemIOS.uplugin
+LogPluginManager: Loaded Plugin OnlineFramework, From D:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/OnlineFramework/OnlineFramework.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystem, From D:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystem/OnlineSubsystem.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemAmazon, From D:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystemAmazon/OnlineSubsystemAmazon.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemFacebook, From D:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystemFacebook/OnlineSubsystemFacebook.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemNull, From D:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystemNull/OnlineSubsystemNull.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemOculus, From D:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystemOculus/OnlineSubsystemOculus.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemSteam, From D:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystemSteam/OnlineSubsystemSteam.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemUtils, From D:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystemUtils/OnlineSubsystemUtils.uplugin
+LogPluginManager: Loaded Plugin IOSTapJoy, From D:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/Advertising/IOSTapJoy/IOSTapJoy.uplugin
+LogPluginManager: Loaded Plugin AnalyticsBlueprintLibrary, From D:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/Analytics/AnalyticsBlueprintLibrary/AnalyticsBlueprintLibrary.uplugin
+LogPluginManager: Loaded Plugin AnalyticsMulticast, From D:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/Analytics/AnalyticsMulticast/AnalyticsMulticast.uplugin
+LogPluginManager: Loaded Plugin Apsalar, From D:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/Analytics/Apsalar/Apsalar.uplugin
+LogPluginManager: Loaded Plugin FileLogging, From D:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/Analytics/FileLogging/FileLogging.uplugin
+LogPluginManager: Loaded Plugin Flurry, From D:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/Analytics/Flurry/Flurry.uplugin
+LogPluginManager: Loaded Plugin AndroidDeviceProfileSelector, From D:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/AndroidDeviceProfileSelector/AndroidDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin AndroidMoviePlayer, From D:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/AndroidMoviePlayer/AndroidMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin AppleMoviePlayer, From D:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/AppleMoviePlayer/AppleMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin ArchVisCharacter, From D:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/ArchVisCharacter/ArchVisCharacter.uplugin
+LogPluginManager: Loaded Plugin CableComponent, From D:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/CableComponent/CableComponent.uplugin
+LogPluginManager: Loaded Plugin CustomMeshComponent, From D:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/CustomMeshComponent/CustomMeshComponent.uplugin
+LogPluginManager: Loaded Plugin ExampleDeviceProfileSelector, From D:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/ExampleDeviceProfileSelector/ExampleDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin GearVR, From D:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/GearVR/GearVR.uplugin
+LogPluginManager: Loaded Plugin GoogleVRController, From D:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/GoogleVR/GoogleVRController/GoogleVRController.uplugin
+LogPluginManager: Loaded Plugin GoogleVRHMD, From D:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/GoogleVR/GoogleVRHMD/GoogleVRHMD.uplugin
+LogPluginManager: Loaded Plugin IOSDeviceProfileSelector, From D:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/IOSDeviceProfileSelector/IOSDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin LeapMotion, From D:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/LeapMotion/LeapMotion.uplugin
+LogPluginManager: Loaded Plugin LinuxDeviceProfileSelector, From D:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/LinuxDeviceProfileSelector/LinuxDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin MIDIDevice, From D:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/MIDIDevice/MIDIDevice.uplugin
+LogPluginManager: Loaded Plugin MobilePatchingUtils, From D:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/MobilePatchingUtils/MobilePatchingUtils.uplugin
+LogPluginManager: Loaded Plugin Ansel, From D:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/Nvidia/Ansel/Ansel.uplugin
+LogPluginManager: Loaded Plugin OculusAudio, From D:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/OculusAudio/OculusAudio.uplugin
+LogPluginManager: Loaded Plugin OculusInput, From D:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/OculusInput/OculusInput.uplugin
+LogPluginManager: Loaded Plugin OculusLibrary, From D:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/OculusLibrary/OculusLibrary.uplugin
+LogPluginManager: Loaded Plugin OculusRift, From D:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/OculusRift/OculusRift.uplugin
+LogPluginManager: Loaded Plugin Oodle, From D:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/PacketHandlers/CompressionComponents/Oodle/Oodle.uplugin
+LogPluginManager: Loaded Plugin ProceduralMeshComponent, From D:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/ProceduralMeshComponent/ProceduralMeshComponent.uplugin
+LogPluginManager: Loaded Plugin SoundMod, From D:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/SoundMod/SoundMod.uplugin
+LogPluginManager: Loaded Plugin SoundVisualizations, From D:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/SoundVisualizations/SoundVisualizations.uplugin
+LogPluginManager: Loaded Plugin SteamController, From D:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/Steam/SteamController/SteamController.uplugin
+LogPluginManager: Loaded Plugin SteamVR, From D:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/Steam/SteamVR/SteamVR.uplugin
+LogPluginManager: Loaded Plugin WebBrowserWidget, From D:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/WebBrowserWidget/WebBrowserWidget.uplugin
+LogPluginManager: Loaded Plugin WindowsDeviceProfileSelector, From D:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/WindowsDeviceProfileSelector/WindowsDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin WindowsMoviePlayer, From D:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/WindowsMoviePlayer/WindowsMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin ScriptPlugin, From D:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/ScriptPlugin/ScriptPlugin.uplugin
+LogPluginManager: Loaded Plugin SlateRemote, From D:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Slate/SlateRemote/SlateRemote.uplugin
+LogPluginManager: Loaded Plugin EditorTests, From D:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Tests/EditorTests/EditorTests.uplugin
+LogPluginManager: Loaded Plugin FbxAutomationTestBuilder, From D:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Tests/FbxAutomationTestBuilder/FbxAutomationTestBuilder.uplugin
+LogPluginManager: Loaded Plugin FunctionalTestingEditor, From D:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Tests/FunctionalTestingEditor/FunctionalTestingEditor.uplugin
+LogPluginManager: Loaded Plugin RuntimeTests, From D:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Tests/RuntimeTests/RuntimeTests.uplugin
+LogPluginManager: Loaded Plugin ScreenshotTools, From D:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Tests/ScreenshotTools/ScreenshotTools.uplugin
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.14-CL-3195953
+LogInit: Engine Version: 4.14.0-3195953+++UE4+Release-4.14
+LogInit: Compatible Engine Version: 4.14.0-3195953+++UE4+Release-4.14
+LogInit: Net CL: 3195953
+LogDevObjectVersion: Number of dev versions registered: 13
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 7
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 1
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 8
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 17
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 1
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogInit: Compiled (64-bit): Nov 12 2016 02:14:10
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.14
+LogInit: Command line:  
+LogInit: Base directory: D:/Program Files (x86)/Epic Games/4.14/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2016.11.30-17.36.08:173][  0]LogInit: Selected Device Profile: [Windows]
+[2016.11.30-17.36.08:173][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.11.30-17.36.08:180][  0]LogInit: Computer: DEWZ
+[2016.11.30-17.36.08:180][  0]LogInit: User: Dewz
+[2016.11.30-17.36.08:180][  0]LogInit: CPU Page size=65536, Cores=4
+[2016.11.30-17.36.08:180][  0]LogInit: High frequency timer resolution =3.914057 MHz
+[2016.11.30-17.36.08:180][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2016.11.30-17.36.08:180][  0]LogMemory: Platform Memory Stats for Windows
+[2016.11.30-17.36.08:180][  0]LogMemory: Process Physical Memory: 265.68 MB used, 265.68 MB peak
+[2016.11.30-17.36.08:180][  0]LogMemory: Process Virtual Memory: 263.78 MB used, 263.78 MB peak
+[2016.11.30-17.36.08:180][  0]LogMemory: Physical Memory: 6060.98 MB used,  10282.73 MB free, 16343.70 MB total
+[2016.11.30-17.36.08:180][  0]LogMemory: Virtual Memory: 675.25 MB used,  10282.73 MB free, 134217728.00 MB total
+[2016.11.30-17.36.08:205][  0]LogTextLocalizationManager: No specific translations for ('en-GB') exist, so ('en') translations will be used.
+[2016.11.30-17.36.08:765][  0]LogD3D11RHI: D3D11 adapters:
+[2016.11.30-17.36.09:164][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970' (Feature Level 11_0)
+[2016.11.30-17.36.09:164][  0]LogD3D11RHI:       4058/0/8171 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2016.11.30-17.36.09:165][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2016.11.30-17.36.09:165][  0]LogD3D11RHI:       0/0/8171 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2016.11.30-17.36.09:165][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2016.11.30-17.36.09:169][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2016.11.30-17.36.09:169][  0]LogD3D11RHI:     GPU DeviceId: 0x13c2 (for the marketing name, search the web for "GPU Device Id")
+[2016.11.30-17.36.09:169][  0]LogWindows: EnumDisplayDevices:
+[2016.11.30-17.36.09:169][  0]LogWindows:    0. 'NVIDIA GeForce GTX 970' (P:1 D:1)
+[2016.11.30-17.36.09:169][  0]LogWindows:    1. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2016.11.30-17.36.09:170][  0]LogWindows:    2. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2016.11.30-17.36.09:170][  0]LogWindows:    3. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2016.11.30-17.36.09:170][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2016.11.30-17.36.09:170][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970
+[2016.11.30-17.36.09:170][  0]LogD3D11RHI:   Driver Version: 375.95 (internal:21.21.13.7595, unified:375.95)
+[2016.11.30-17.36.09:170][  0]LogD3D11RHI:      Driver Date: 11-16-2016
+[2016.11.30-17.36.09:170][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.11.30-17.36.09:547][  0]LogD3D11RHI: Async texture creation enabled
+[2016.11.30-17.36.09:579][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2016.11.30-17.36.09:579][  0]LogShaderCompilers: Guid format shader working directory is -6 characters bigger than the processId version (C:/Users/Dewz/Documents/Unreal Projects/Level_Design/Intermediate/Shaders/WorkingDirectory/216/).
+[2016.11.30-17.36.09:579][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Dewz/AppData/Local/Temp/UnrealShaderWorkingDir/0568BE064D9AC249C91C4BB1005EF90D/'.
+[2016.11.30-17.36.09:579][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.11.30-17.36.10:369][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.11.30-17.36.10:405][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2016.11.30-17.36.10:441][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2016.11.30-17.36.10:477][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2016.11.30-17.36.10:513][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2016.11.30-17.36.10:548][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.11.30-17.36.10:584][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.11.30-17.36.10:620][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.11.30-17.36.10:647][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.11.30-17.36.10:683][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.11.30-17.36.10:718][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.11.30-17.36.10:752][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.11.30-17.36.10:787][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.11.30-17.36.10:822][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.11.30-17.36.10:857][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.11.30-17.36.10:928][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.11.30-17.36.10:928][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.11.30-17.36.10:951][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.11.30-17.36.11:008][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.11.30-17.36.11:030][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2016.11.30-17.36.11:064][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2016.11.30-17.36.11:099][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.11.30-17.36.11:134][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.11.30-17.36.11:170][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.11.30-17.36.11:170][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.11.30-17.36.11:398][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.11.30-17.36.11:435][  0]LogDerivedDataCache: Loaded boot cache 0.04s 50MB C:/Users/Dewz/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc.
+[2016.11.30-17.36.11:436][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Dewz/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc
+[2016.11.30-17.36.11:436][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/Dewz/Documents/Unreal Projects/Level_Design/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.11.30-17.36.11:436][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.11.30-17.36.11:436][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/Dewz/Documents/Unreal Projects/Level_Design/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.11.30-17.36.11:436][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.11.30-17.36.11:448][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.11.30-17.36.11:460][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Dewz/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.11.30-17.36.11:606][  0]LogInit: Selected Device Profile: [Windows]
+[2016.11.30-17.36.11:608][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2016.11.30-17.36.11:744][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2016.11.30-17.36.11:770][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2016.11.30-17.36.11:800][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2016.11.30-17.36.11:800][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2016.11.30-17.36.11:800][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.11.30-17.36.12:144][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3195953, ProjectName: level_design, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 3916157610
+[2016.11.30-17.36.12:185][  0]LogAssetRegistry: FAssetRegistry took 0.0212 seconds to start up
+[2016.11.30-17.36.12:214][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.016465 seconds
+[2016.11.30-17.36.12:218][  0]LogUObjectArray: 31946 objects as part of root set at end of initial load.
+[2016.11.30-17.36.12:218][  0]LogUObjectAllocator: 6935840 out of 0 bytes used by permanent object pool.
+[2016.11.30-17.36.12:218][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2016.11.30-17.36.12:250][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.11.30-17.36.12:689][  0]LogSlate: Using Freetype 2.6.0
+[2016.11.30-17.36.12:690][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.11.30-17.36.12:690][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.11.30-17.36.13:338][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2016.11.30-17.36.13:367][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.11.30-17.36.13:581][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2016.11.30-17.36.13:830][  0]SourceControl: Info Source control is disabled
+[2016.11.30-17.36.13:830][  0]SourceControl: Info Source control is disabled
+[2016.11.30-17.36.13:861][  0]SourceControl: Info Source control is disabled
+[2016.11.30-17.36.13:891][  0]SourceControl: Info Source control is disabled
+[2016.11.30-17.36.14:696][  0]LogEngine: Initializing Engine...
+[2016.11.30-17.36.14:696][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2016.11.30-17.36.14:853][  0]LogAIModule: Creating AISystem for world Untitled
+[2016.11.30-17.36.14:862][  0]LogInit: XAudio2 using 'Speakers (Sound Blaster Z)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.11.30-17.36.14:877][  0]LogInit: FAudioDevice initialized.
+[2016.11.30-17.36.14:895][  0]LogDerivedDataCache: Saved boot cache 0.02s 50MB C:/Users/Dewz/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc.
+[2016.11.30-17.36.14:900][  0]LogInit: Texture streaming: Enabled
+[2016.11.30-17.36.15:006][  0]LogInit: Transaction tracking system initialized
+[2016.11.30-17.36.15:210][  0]BlueprintLog: New page: Editor Load
+[2016.11.30-17.36.15:727][  0]LocalizationService: Info Localization service is disabled
+[2016.11.30-17.36.16:125][  0]LogConsoleResponse:Display: 
+[2016.11.30-17.36.16:243][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2016.11.30-17.36.16:243][  0]LogCook:Display: Mobile HDR setting 1
+[2016.11.30-17.36.16:481][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Dewz/Documents/Unreal Projects/Level_Design/Content/' took 0.01s
+[2016.11.30-17.36.16:830][  0]SourceControl: Info Source control is disabled
+[2016.11.30-17.36.16:830][  0]Cmd: MAP LOAD FILE="C:/Users/Dewz/Documents/Unreal Projects/Level_Design/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.11.30-17.36.16:831][  0]LightingResults: New page: Lighting Build
+[2016.11.30-17.36.16:855][  0]MapCheck: New page: Map Check
+[2016.11.30-17.36.16:855][  0]LightingResults: New page: Lighting Build
+[2016.11.30-17.36.17:200][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2016.11.30-17.36.17:207][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.11.30-17.36.17:207][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.11.30-17.36.17:244][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 36.786ms to complete.
+[2016.11.30-17.36.17:244][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 0.414
+[2016.11.30-17.36.17:294][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.11.30-17.36.17:347][  0]LogCollectionManager: Loaded 0 collections in 0.000681 seconds
+[2016.11.30-17.36.17:409][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Dewz/Documents/Unreal Projects/Level_Design/Saved/Collections/' took 0.01s
+[2016.11.30-17.36.17:409][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Dewz/Documents/Unreal Projects/Level_Design/Content/Developers/Dewz/Collections/' took 0.01s
+[2016.11.30-17.36.17:409][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Dewz/Documents/Unreal Projects/Level_Design/Content/Collections/' took 0.01s
+[2016.11.30-17.36.17:409][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2016.11.30-17.36.17:416][  0]LogContentBrowser: Native class hierarchy populated in 0.0063 seconds. Added 2190 classes and 428 folders.
+[2016.11.30-17.36.17:442][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2016.11.30-17.36.17:442][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2016.11.30-17.36.17:442][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0004 seconds. Added 13 classes and 0 folders.
+[2016.11.30-17.36.17:481][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2016.11.30-17.36.17:518][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2016.11.30-17.36.17:545][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2016.11.30-17.36.17:569][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.11.30-17.36.17:634][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2016.11.30-17.36.17:634][  0]LogLoad: (Engine Initialization) Total time: 10.73 seconds
+[2016.11.30-17.36.17:634][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.12 seconds
+[2016.11.30-17.36.17:634][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2016.11.30-17.36.17:634][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2016.11.30-17.36.17:643][  0]LogOcInput: OculusInput pre-init called
+[2016.11.30-17.36.17:656][  0]LogAssetRegistry: Asset discovery search completed in 5.4921 seconds
+[2016.11.30-17.36.17:656][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2016.11.30-17.36.17:656][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000011 seconds (updated 0 objects)
+[2016.11.30-17.36.17:658][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.11.30-17.36.17:780][  0]LogRenderer: Reallocating scene render targets to support 1208x576 NumSamples 1 (Frame:2).
+[2016.11.30-17.36.29:840][437]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (BigWall)
+[2016.11.30-17.36.31:381][618]Cmd: DELETE
+[2016.11.30-17.36.31:381][618]Cmd: ACTOR DELETE
+[2016.11.30-17.36.31:493][618]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.11.30-17.36.31:531][618]LogEditorActor: Deleted 1 Actors (0.069 secs)
+[2016.11.30-17.36.32:036][678]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (EditorCube19)
+[2016.11.30-17.36.32:385][716]Cmd: DELETE
+[2016.11.30-17.36.32:385][716]Cmd: ACTOR DELETE
+[2016.11.30-17.36.32:386][716]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.11.30-17.36.32:392][716]LogEditorActor: Deleted 1 Actors (0.006 secs)
+[2016.11.30-17.36.33:064][797]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2016.11.30-17.36.36:936][257]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (EditorCube18)
+[2016.11.30-17.36.37:095][273]Cmd: DELETE
+[2016.11.30-17.36.37:095][273]Cmd: ACTOR DELETE
+[2016.11.30-17.36.37:096][273]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.11.30-17.36.37:103][273]LogEditorActor: Deleted 1 Actors (0.008 secs)
+[2016.11.30-17.36.37:384][307]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (EditorCube20)
+[2016.11.30-17.36.37:498][318]Cmd: DELETE
+[2016.11.30-17.36.37:498][318]Cmd: ACTOR DELETE
+[2016.11.30-17.36.37:499][318]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.11.30-17.36.37:506][318]LogEditorActor: Deleted 1 Actors (0.008 secs)
+[2016.11.30-17.36.37:862][361]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (EditorCube21)
+[2016.11.30-17.36.37:937][367]Cmd: DELETE
+[2016.11.30-17.36.37:937][367]Cmd: ACTOR DELETE
+[2016.11.30-17.36.37:937][367]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.11.30-17.36.37:943][367]LogEditorActor: Deleted 1 Actors (0.006 secs)
+[2016.11.30-17.36.38:340][415]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (EditorCube15)
+[2016.11.30-17.36.38:457][426]Cmd: DELETE
+[2016.11.30-17.36.38:457][426]Cmd: ACTOR DELETE
+[2016.11.30-17.36.38:458][426]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.11.30-17.36.38:465][426]LogEditorActor: Deleted 1 Actors (0.008 secs)
+[2016.11.30-17.36.38:803][467]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (EditorCube17)
+[2016.11.30-17.36.38:943][481]Cmd: DELETE
+[2016.11.30-17.36.38:943][481]Cmd: ACTOR DELETE
+[2016.11.30-17.36.38:943][481]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.11.30-17.36.38:949][481]LogEditorActor: Deleted 1 Actors (0.006 secs)
+[2016.11.30-17.36.39:281][521]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (EditorCube16)
+[2016.11.30-17.36.39:371][529]Cmd: DELETE
+[2016.11.30-17.36.39:371][529]Cmd: ACTOR DELETE
+[2016.11.30-17.36.39:372][529]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.11.30-17.36.39:377][529]LogEditorActor: Deleted 1 Actors (0.006 secs)
+[2016.11.30-17.36.39:953][598]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (BigWall2)
+[2016.11.30-17.36.40:029][604]Cmd: DELETE
+[2016.11.30-17.36.40:029][604]Cmd: ACTOR DELETE
+[2016.11.30-17.36.40:030][604]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.11.30-17.36.40:036][604]LogEditorActor: Deleted 1 Actors (0.006 secs)
+[2016.11.30-17.36.40:467][656]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (EditorCube13)
+[2016.11.30-17.36.40:560][664]Cmd: DELETE
+[2016.11.30-17.36.40:560][664]Cmd: ACTOR DELETE
+[2016.11.30-17.36.40:561][664]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.11.30-17.36.40:567][664]LogEditorActor: Deleted 1 Actors (0.006 secs)
+[2016.11.30-17.36.40:939][709]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (EditorCube14)
+[2016.11.30-17.36.41:014][715]Cmd: DELETE
+[2016.11.30-17.36.41:014][715]Cmd: ACTOR DELETE
+[2016.11.30-17.36.41:015][715]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.11.30-17.36.41:020][715]LogEditorActor: Deleted 1 Actors (0.006 secs)
+[2016.11.30-17.36.41:334][753]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (EditorCube12)
+[2016.11.30-17.36.41:423][761]Cmd: DELETE
+[2016.11.30-17.36.41:423][761]Cmd: ACTOR DELETE
+[2016.11.30-17.36.41:424][761]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.11.30-17.36.41:430][761]LogEditorActor: Deleted 1 Actors (0.006 secs)
+[2016.11.30-17.36.42:210][855]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (EditorCube11)
+[2016.11.30-17.36.42:292][862]Cmd: DELETE
+[2016.11.30-17.36.42:292][862]Cmd: ACTOR DELETE
+[2016.11.30-17.36.42:292][862]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.11.30-17.36.42:298][862]LogEditorActor: Deleted 1 Actors (0.006 secs)
+[2016.11.30-17.36.42:920][937]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (EditorCube10)
+[2016.11.30-17.36.43:010][945]Cmd: DELETE
+[2016.11.30-17.36.43:010][945]Cmd: ACTOR DELETE
+[2016.11.30-17.36.43:011][945]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.11.30-17.36.43:016][945]LogEditorActor: Deleted 1 Actors (0.006 secs)
+[2016.11.30-17.36.43:480][  1]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (EditorCube9)
+[2016.11.30-17.36.43:570][  9]Cmd: DELETE
+[2016.11.30-17.36.43:570][  9]Cmd: ACTOR DELETE
+[2016.11.30-17.36.43:570][  9]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.11.30-17.36.43:576][  9]LogEditorActor: Deleted 1 Actors (0.006 secs)
+[2016.11.30-17.36.44:185][ 82]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (EditorCube8)
+[2016.11.30-17.36.44:308][ 94]Cmd: DELETE
+[2016.11.30-17.36.44:308][ 94]Cmd: ACTOR DELETE
+[2016.11.30-17.36.44:309][ 94]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.11.30-17.36.44:315][ 94]LogEditorActor: Deleted 1 Actors (0.006 secs)
+[2016.11.30-17.36.45:106][189]LogEditorViewport: Clicking on Actor (LMB): TextRenderActor (TemplateLabel)
+[2016.11.30-17.36.45:589][240]Cmd: DELETE
+[2016.11.30-17.36.45:589][240]Cmd: ACTOR DELETE
+[2016.11.30-17.36.45:589][240]LogEditorActor: Deleted Actor: TextRenderActor
+[2016.11.30-17.36.45:595][240]LogEditorActor: Deleted 1 Actors (0.006 secs)
+[2016.11.30-17.36.48:359][572]MapCheck: New page: Map Check
+[2016.11.30-17.36.48:462][572]Cmd: MAP REBUILD ALLVISIBLE
+[2016.11.30-17.36.48:469][572]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2016.11.30-17.36.48:651][572]LightingResults: New page: Lighting Build - 30 Nov 2016 17:36:48
+[2016.11.30-17.36.48:774][572]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2016.11.30-17.36.48:848][572]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2016.11.30-17.36.48:859][572]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2016.11.30-17.36.49:382][572]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2016.11.30-17.36.49:382][572]LogSwarmInterface: [TryOpenConnection] Local Process ID is 216
+[2016.11.30-17.36.51:843][572]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2016.11.30-17.36.51:843][572]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2016.11.30-17.36.51:843][572]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2016.11.30-17.36.51:843][572]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2016.11.30-17.36.51:843][572]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2016.11.30-17.36.52:011][572]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2016.11.30-17.36.52:011][572]MapCheck: New page: FirstPersonExampleMap - 30 Nov 2016 17:36:52
+[2016.11.30-17.36.52:071][572]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 60.292ms to complete.
+[2016.11.30-17.36.52:093][572]LogEditorBuildUtils: Build time 0:03
+[2016.11.30-17.36.52:109][572]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer MaterialInstanceDynamic_1, compiling. 
+[2016.11.30-17.36.52:195][572]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer MaterialInstanceDynamic_1, compiling. 
+[2016.11.30-17.36.52:219][573]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer CubeMaterial, compiling. 
+[2016.11.30-17.36.52:223][573]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer CubeMaterial, compiling. 
+[2016.11.30-17.36.52:228][573]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer WorldGridMaterial, compiling. Is special engine material.
+[2016.11.30-17.36.52:235][573]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer WorldGridMaterial, compiling. Is special engine material.
+[2016.11.30-17.37.30:963][156]Job is a success!
+[2016.11.30-17.37.33:047][157]LogTexture:Display: Building textures: SkyOcclusion1_1 (AutoDXT)
+[2016.11.30-17.37.33:047][157]LogTexture:Display: Building textures: HQ_Lightmap1_1 (AutoDXT)
+[2016.11.30-17.37.33:047][157]LogTexture:Display: Building textures: LQ_Lightmap_1_1 (DXT1)
+[2016.11.30-17.37.33:047][157]LogTexture:Display: Building textures: SkyOcclusion1_2 (AutoDXT)
+[2016.11.30-17.37.33:047][157]LogTexture:Display: Building textures: HQ_Lightmap1_2 (AutoDXT)
+[2016.11.30-17.37.33:047][157]LogTexture:Display: Building textures: LQ_Lightmap_1_2 (DXT1)
+[2016.11.30-17.37.33:047][157]LogTexture:Display: Building textures: SkyOcclusion1_3 (AutoDXT)
+[2016.11.30-17.37.33:047][157]LogTexture:Display: Building textures: HQ_Lightmap1_3 (AutoDXT)
+[2016.11.30-17.37.33:047][157]LogTexture:Display: Building textures: LQ_Lightmap_1_3 (DXT1)
+[2016.11.30-17.37.33:047][157]LogTexture:Display: Building textures: SkyOcclusion1_4 (AutoDXT)
+[2016.11.30-17.37.33:047][157]LogTexture:Display: Building textures: HQ_Lightmap1_4 (AutoDXT)
+[2016.11.30-17.37.33:047][157]LogTexture:Display: Building textures: LQ_Lightmap_1_4 (DXT1)
+[2016.11.30-17.37.34:637][157]LogTexture:Display: Building textures: ShadowMapTexture2D_8 (G8)
+[2016.11.30-17.37.34:637][157]LogTexture:Display: Building textures: ShadowMapTexture2D_9 (G8)
+[2016.11.30-17.37.34:637][157]LogTexture:Display: Building textures: ShadowMapTexture2D_10 (G8)
+[2016.11.30-17.37.34:637][157]LogTexture:Display: Building textures: ShadowMapTexture2D_11 (G8)
+[2016.11.30-17.37.34:637][157]LogTexture:Display: Building textures: ShadowMapTexture2D_12 (G8)
+[2016.11.30-17.37.34:637][157]LogTexture:Display: Building textures: ShadowMapTexture2D_13 (G8)
+[2016.11.30-17.37.34:697][157]Lightmass on DEWZ: 40.1 sec total, 62 ms importing, 3 ms setup, 4.20 sec photons, 35.8 sec processing, 0 ms extra exporting [6/6 mappings]. Threads: 4:10 min total, 1:51 min processing.
+[2016.11.30-17.37.34:723][157]LogStaticLightingSystem: Illumination: 46.0 sec (1.80 sec encoding lightmaps, 1.63 sec encoding shadowmaps)
+[2016.11.30-17.37.34:723][157]LogStaticLightingSystem: Lightmap texture memory:  32.0 MB (32.0 MB streaming, 0.0 MB non-streaming), 8 textures
+[2016.11.30-17.37.34:723][157]LogStaticLightingSystem: Shadowmap texture memory: 13.3 MB (13.3 MB streaming, 0.0 MB non-streaming), 6 textures
+[2016.11.30-17.37.34:832][157]DumpUnbuiltLightIteractions
+[2016.11.30-17.37.34:832][157]Lights with unbuilt interactions: 0
+[2016.11.30-17.37.34:832][157]
+[2016.11.30-17.37.34:832][157]Primitives with unbuilt interactions: 0
+[2016.11.30-17.37.34:838][158]Cmd: MAP CHECK NOTIFYRESULTS
+[2016.11.30-17.37.34:838][158]MapCheck: New page: FirstPersonExampleMap - 30 Nov 2016 17:37:34
+[2016.11.30-17.37.34:882][158]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 43.894ms to complete.
+[2016.11.30-17.37.36:984][410]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2016.11.30-17.38.03:389][216]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.11.30-17.38.03:399][216]LightingResults: New page: Lighting Build
+[2016.11.30-17.38.03:399][216]LoadErrors: New page: Loading map: Template_Default.umap
+[2016.11.30-17.38.03:400][216]MapCheck: New page: Map Check
+[2016.11.30-17.38.03:400][216]LightingResults: New page: Lighting Build
+[2016.11.30-17.38.03:437][216]LogAIModule: Creating AISystem for world Untitled_1
+[2016.11.30-17.38.03:438][216]LogActorComponent: RegisterComponentWithWorld: (/Temp/Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.StaticMeshComponent0) Trying to register component with IsPendingKill() == true. Aborting.
+[2016.11.30-17.38.03:440][216]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.11.30-17.38.03:447][216]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.11.30-17.38.03:486][216]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 38.978ms to complete.
+[2016.11.30-17.38.03:486][216]LogFileHelpers: Loading map 'Template_Default' took 0.098
+[2016.11.30-17.38.11:123][940]LogTemp:Display: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.LevelDesign
+
+[2016.11.30-17.38.11:123][940]LogTemp:Display: CWD: D:\Program Files (x86)\Epic Games\4.14\Engine\Binaries\DotNet\IOS
+
+[2016.11.30-17.38.11:123][940]LogTemp:Display: Initial Dir: D:\Program Files (x86)\Epic Games\4.14
+
+[2016.11.30-17.38.11:123][940]LogTemp:Display: Env CWD: D:\Program Files (x86)\Epic Games\4.14\Engine\Binaries\DotNet\IOS
+
+[2016.11.30-17.38.11:123][940]LogTemp:Display: BranchPath = DEWZ/D/Program Files (x86)/Epic Games/4.14/Engine/Binaries --- GameBranchPath = DEWZ/D/Program Files (x86)/Epic Games/4.14/Engine/Binaries
+
+[2016.11.30-17.38.11:123][940]LogTemp:Display: IPP ERROR: Application exception: System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Users\Dewz\AppData\Local\Apple Computer\MobileDevice\Provisioning Profiles'.
+
+[2016.11.30-17.38.11:123][940]LogTemp:Display:    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+
+[2016.11.30-17.38.11:123][940]LogTemp:Display:    at System.IO.FileSystemEnumerableIterator`1.CommonInit()
+
+[2016.11.30-17.38.11:123][940]LogTemp:Display:    at System.IO.Directory.EnumerateFiles(String path, String searchPattern)
+
+[2016.11.30-17.38.11:123][940]LogTemp:Display:    at iPhonePackager.CodeSignatureBuilder.FindProvisions(String CFBundleIdentifier)
+
+[2016.11.30-17.38.11:123][940]LogTemp:Display:    at iPhonePackager.Program.Main(String[] args)
+
+[2016.11.30-17.38.11:123][940]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2016.11.30-17.38.19:911][979]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2016.11.30-17.38.24:676][548]Cmd: DELETE
+[2016.11.30-17.38.24:676][548]Cmd: ACTOR DELETE
+[2016.11.30-17.38.24:676][548]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.11.30-17.38.24:714][548]LogEditorActor: Deleted 1 Actors (0.039 secs)
+[2016.11.30-17.38.45:398][997]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2016.11.30-17.41.32:037][ 58]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Industrial_Map" FILE="C:/Users/Dewz/Documents/Unreal Projects/Level_Design/Content/Industrial_Map.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.11.30-17.41.32:090][ 58]LogSavePackage: Save=38.27ms
+[2016.11.30-17.41.32:090][ 58]LogSavePackage: Moving 'C:/Users/Dewz/Documents/Unreal Projects/Level_Design/Saved/Industrial_MapE3B5BC4645862C22CF5407B5E06674A2.tmp' to 'C:/Users/Dewz/Documents/Unreal Projects/Level_Design/Content/Industrial_Map.umap'
+[2016.11.30-17.41.32:091][ 58]LogSavePackage:Display: Finished SavePackage C:/Users/Dewz/Documents/Unreal Projects/Level_Design/Content/Industrial_Map.umap
+[2016.11.30-17.41.32:140][ 58]LogFileHelpers: Saving map 'Industrial_Map' took 0.892
+[2016.11.30-17.41.36:578][509]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2016.11.30-17.41.36:624][511]LogTemp:Display: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.LevelDesign
+
+[2016.11.30-17.41.36:624][511]LogTemp:Display: CWD: D:\Program Files (x86)\Epic Games\4.14\Engine\Binaries\DotNet\IOS
+
+[2016.11.30-17.41.36:624][511]LogTemp:Display: Initial Dir: D:\Program Files (x86)\Epic Games\4.14
+
+[2016.11.30-17.41.36:624][511]LogTemp:Display: Env CWD: D:\Program Files (x86)\Epic Games\4.14\Engine\Binaries\DotNet\IOS
+
+[2016.11.30-17.41.36:624][511]LogTemp:Display: BranchPath = DEWZ/D/Program Files (x86)/Epic Games/4.14/Engine/Binaries --- GameBranchPath = DEWZ/D/Program Files (x86)/Epic Games/4.14/Engine/Binaries
+
+[2016.11.30-17.41.36:637][512]LogTemp:Display: IPP ERROR: Application exception: System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Users\Dewz\AppData\Local\Apple Computer\MobileDevice\Provisioning Profiles'.
+
+[2016.11.30-17.41.36:637][512]LogTemp:Display:    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+
+[2016.11.30-17.41.36:637][512]LogTemp:Display:    at System.IO.FileSystemEnumerableIterator`1.CommonInit()
+
+[2016.11.30-17.41.36:637][512]LogTemp:Display:    at System.IO.Directory.EnumerateFiles(String path, String searchPattern)
+
+[2016.11.30-17.41.36:637][512]LogTemp:Display:    at iPhonePackager.CodeSignatureBuilder.FindProvisions(String CFBundleIdentifier)
+
+[2016.11.30-17.41.36:637][512]LogTemp:Display:    at iPhonePackager.Program.Main(String[] args)
+
+[2016.11.30-17.42.02:069][503]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2016.11.30-17.42.02:766][577]LogTemp: Repeting last play command: Selected Viewport
+[2016.11.30-17.42.02:810][577]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.11.30-17.42.02:847][577]PIE: New page: PIE session: Industrial_Map (30 Nov 2016 17:42:02)
+[2016.11.30-17.42.02:847][577]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Industrial_Map
+[2016.11.30-17.42.02:866][577]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019314s)
+[2016.11.30-17.42.02:866][577]LogAIModule: Creating AISystem for world Industrial_Map
+[2016.11.30-17.42.02:874][577]LogPlayLevel: PIE: World Init took: (0.007397s)
+[2016.11.30-17.42.02:880][577]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Industrial_Map.Industrial_Map to /Game/UEDPIE_0_Industrial_Map.Industrial_Map (0.033000s)
+[2016.11.30-17.42.02:895][577]LogInit: XAudio2 using 'Speakers (Sound Blaster Z)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.11.30-17.42.02:901][577]LogInit: FAudioDevice initialized.
+[2016.11.30-17.42.03:053][577]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2016.11.30-17.42.03:139][577]LogWorld: Bringing World /Game/UEDPIE_0_Industrial_Map.Industrial_Map up for play (max tick rate 0) at 2016.11.30-17.42.03
+[2016.11.30-17.42.03:153][577]LogWorld: Bringing up level for play took: 0.015108
+[2016.11.30-17.42.03:310][577]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0005 seconds. Added 11 classes and 0 folders.
+[2016.11.30-17.42.03:344][577]PIE: Info Play in editor start time for /Game/UEDPIE_0_Industrial_Map 1.456
+[2016.11.30-17.42.22:654][853]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2016.11.30-17.43.59:652][384]LogEditorViewport: Clicking on Actor (CTRL LMB): Brush (Box Brush2)
+[2016.11.30-17.44.30:796][ 84]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2016.11.30-17.44.37:639][878]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2016.11.30-17.44.49:333][269]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2016.11.30-17.46.38:188][179]MapCheck: New page: Map Check
+[2016.11.30-17.46.38:197][179]Cmd: MAP REBUILD ALLVISIBLE
+[2016.11.30-17.46.38:197][179]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2016.11.30-17.46.38:207][179]LightingResults: New page: Lighting Build - 30 Nov 2016 17:46:38
+[2016.11.30-17.46.38:213][179]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2016.11.30-17.46.38:214][179]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2016.11.30-17.46.38:214][179]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2016.11.30-17.46.38:215][179]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2016.11.30-17.46.38:215][179]LogSwarmInterface: [TryOpenConnection] Local Process ID is 216
+[2016.11.30-17.46.42:745][179]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2016.11.30-17.46.42:754][179]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2016.11.30-17.46.42:754][179]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2016.11.30-17.46.42:754][179]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2016.11.30-17.46.42:754][179]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2016.11.30-17.46.42:754][179]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2016.11.30-17.46.42:843][179]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2016.11.30-17.46.42:843][179]MapCheck: New page: Industrial_Map - 30 Nov 2016 17:46:42
+[2016.11.30-17.46.42:885][179]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 42.204ms to complete.
+[2016.11.30-17.46.42:907][179]LogEditorBuildUtils: Build time 0:04
+[2016.11.30-17.46.46:180][453]Job is a success!
+[2016.11.30-17.46.46:537][454]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
+[2016.11.30-17.46.46:537][454]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1)
+[2016.11.30-17.46.46:537][454]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
+[2016.11.30-17.46.46:537][454]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT)
+[2016.11.30-17.46.46:537][454]LogTexture:Display: Building textures: ShadowMapTexture2D_0 (G8)
+[2016.11.30-17.46.46:537][454]LogTexture:Display: Building textures: ShadowMapTexture2D_1 (G8)
+[2016.11.30-17.46.46:555][454]Lightmass on DEWZ: 3.21 sec total, 59 ms importing, 3 ms setup, 801 ms photons, 2.33 sec processing, 0 ms extra exporting [33/33 mappings]. Threads: 16.1 sec total, 10.8 sec processing.
+[2016.11.30-17.46.46:561][454]LogStaticLightingSystem: Illumination: 8.34 sec (151 ms encoding lightmaps, 94 ms encoding shadowmaps)
+[2016.11.30-17.46.46:561][454]LogStaticLightingSystem: Lightmap texture memory:  2.0 MB (0.0 MB streaming, 2.0 MB non-streaming), 4 textures
+[2016.11.30-17.46.46:561][454]LogStaticLightingSystem: Shadowmap texture memory: 0.7 MB (0.0 MB streaming, 0.7 MB non-streaming), 2 textures
+[2016.11.30-17.46.46:747][454]DumpUnbuiltLightIteractions
+[2016.11.30-17.46.46:747][454]Lights with unbuilt interactions: 0
+[2016.11.30-17.46.46:747][454]
+[2016.11.30-17.46.46:747][454]Primitives with unbuilt interactions: 0
+[2016.11.30-17.46.46:754][455]Cmd: MAP CHECK NOTIFYRESULTS
+[2016.11.30-17.46.46:755][455]MapCheck: New page: Industrial_Map - 30 Nov 2016 17:46:46
+[2016.11.30-17.46.46:797][455]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 42.238ms to complete.
+[2016.11.30-17.46.54:101][329]Cmd: DELETE
+[2016.11.30-17.46.54:102][329]Cmd: ACTOR DELETE
+[2016.11.30-17.46.54:102][329]LogEditorActor: Deleted Actor: Brush
+[2016.11.30-17.46.54:111][329]LogEditorActor: Deleted 1 Actors (0.010 secs)
+[2016.11.30-17.46.56:053][556]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2016.11.30-17.47.34:191][113]Cmd: TRANSACTION UNDO
+[2016.11.30-17.47.34:191][113]LogEditorTransaction: Undo Move Actors
+[2016.11.30-17.47.34:566][153]Cmd: TRANSACTION UNDO
+[2016.11.30-17.47.34:566][153]LogEditorTransaction: Undo Move Actors
+[2016.11.30-17.47.35:039][207]Cmd: TRANSACTION UNDO
+[2016.11.30-17.47.35:039][207]LogEditorTransaction: Undo Edit Brush Type
+[2016.11.30-17.47.56:139][705]Cmd: TRANSACTION UNDO
+[2016.11.30-17.47.56:139][705]LogEditorTransaction: Undo Edit Z
+[2016.11.30-17.51.10:394][931]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2016.11.30-17.51.14:011][360]MapCheck: New page: Map Check
+[2016.11.30-17.51.14:021][360]Cmd: MAP REBUILD ALLVISIBLE
+[2016.11.30-17.51.14:021][360]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2016.11.30-17.51.14:031][360]LightingResults: New page: Lighting Build - 30 Nov 2016 17:51:14
+[2016.11.30-17.51.14:037][360]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2016.11.30-17.51.14:039][360]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2016.11.30-17.51.14:039][360]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2016.11.30-17.51.14:039][360]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2016.11.30-17.51.14:039][360]LogSwarmInterface: [TryOpenConnection] Local Process ID is 216
+[2016.11.30-17.51.18:547][360]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2016.11.30-17.51.18:547][360]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2016.11.30-17.51.18:547][360]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2016.11.30-17.51.18:547][360]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2016.11.30-17.51.18:547][360]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2016.11.30-17.51.18:547][360]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2016.11.30-17.51.18:633][360]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2016.11.30-17.51.18:633][360]MapCheck: New page: Industrial_Map - 30 Nov 2016 17:51:18
+[2016.11.30-17.51.18:676][360]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 43.382ms to complete.
+[2016.11.30-17.51.18:699][360]LogEditorBuildUtils: Build time 0:04
+[2016.11.30-17.51.21:878][635]Job is a success!
+[2016.11.30-17.51.22:258][636]LogTexture:Display: Building textures: HQ_Lightmap1_1 (AutoDXT)
+[2016.11.30-17.51.22:258][636]LogTexture:Display: Building textures: LQ_Lightmap_1_1 (DXT1)
+[2016.11.30-17.51.22:258][636]LogTexture:Display: Building textures: HQ_Lightmap1_2 (AutoDXT)
+[2016.11.30-17.51.22:258][636]LogTexture:Display: Building textures: LQ_Lightmap_1_2 (DXT1)
+[2016.11.30-17.51.22:258][636]LogTexture:Display: Building textures: ShadowMapTexture2D_2 (G8)
+[2016.11.30-17.51.22:258][636]LogTexture:Display: Building textures: ShadowMapTexture2D_3 (G8)
+[2016.11.30-17.51.22:275][636]Lightmass on DEWZ: 3.11 sec total, 57 ms importing, 2 ms setup, 820 ms photons, 2.21 sec processing, 0 ms extra exporting [34/34 mappings]. Threads: 15.3 sec total, 10.0 sec processing.
+[2016.11.30-17.51.22:284][636]LogStaticLightingSystem: Illumination: 8.24 sec (181 ms encoding lightmaps, 96 ms encoding shadowmaps)
+[2016.11.30-17.51.22:284][636]LogStaticLightingSystem: Lightmap texture memory:  2.0 MB (0.0 MB streaming, 2.0 MB non-streaming), 4 textures
+[2016.11.30-17.51.22:284][636]LogStaticLightingSystem: Shadowmap texture memory: 0.7 MB (0.0 MB streaming, 0.7 MB non-streaming), 2 textures
+[2016.11.30-17.51.22:551][636]DumpUnbuiltLightIteractions
+[2016.11.30-17.51.22:551][636]Lights with unbuilt interactions: 0
+[2016.11.30-17.51.22:551][636]
+[2016.11.30-17.51.22:551][636]Primitives with unbuilt interactions: 0
+[2016.11.30-17.51.22:558][637]Cmd: MAP CHECK NOTIFYRESULTS
+[2016.11.30-17.51.22:559][637]MapCheck: New page: Industrial_Map - 30 Nov 2016 17:51:22
+[2016.11.30-17.51.22:600][637]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 41.694ms to complete.
+[2016.11.30-17.52.55:824][568]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Industrial_Map" FILE="C:/Users/Dewz/Documents/Unreal Projects/Level_Design/Saved/Autosaves/Game/Industrial_Map_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2016.11.30-17.52.55:846][568]LogSavePackage: Save=18.83ms
+[2016.11.30-17.52.55:846][568]LogSavePackage: Moving 'C:/Users/Dewz/Documents/Unreal Projects/Level_Design/Saved/Industrial_Map_Auto1EAF79BD2405DCB3043678F9D4402DB74.tmp' to 'C:/Users/Dewz/Documents/Unreal Projects/Level_Design/Saved/Autosaves/Game/Industrial_Map_Auto1.umap'
+[2016.11.30-17.52.55:846][568]LogSavePackage:Display: Finished SavePackage C:/Users/Dewz/Documents/Unreal Projects/Level_Design/Saved/Autosaves/Game/Industrial_Map_Auto1.umap
+[2016.11.30-17.52.55:848][568]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Industrial_Map_BuiltData" FILE="C:/Users/Dewz/Documents/Unreal Projects/Level_Design/Content/Industrial_Map_BuiltData.uasset" SILENT=true
+[2016.11.30-17.52.55:858][568]LogSavePackage: Save=9.20ms
+[2016.11.30-17.52.55:858][568]LogSavePackage: Moving 'C:/Users/Dewz/Documents/Unreal Projects/Level_Design/Saved/Industrial_Map_BuiltData129BC9344568F76D8E4DA99D492452A8.tmp' to 'C:/Users/Dewz/Documents/Unreal Projects/Level_Design/Content/Industrial_Map_BuiltData.uasset'
+[2016.11.30-17.52.55:859][568]LogSavePackage:Display: Finished SavePackage C:/Users/Dewz/Documents/Unreal Projects/Level_Design/Content/Industrial_Map_BuiltData.uasset
+[2016.11.30-17.52.55:859][568]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Industrial_Map' took 0.042
+[2016.11.30-17.52.55:859][568]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.042
+[2016.11.30-17.52.55:869][568]LogSavePackage: Save=1.08ms
+[2016.11.30-17.52.55:869][568]LogSavePackage: Moving 'C:/Users/Dewz/Documents/Unreal Projects/Level_Design/Saved/FirstPersonExampleMap_BuiltData_Auto1F97864624E199840204ADB8C718B9010.tmp' to 'C:/Users/Dewz/Documents/Unreal Projects/Level_Design/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData_Auto1.uasset'
+[2016.11.30-17.52.55:870][568]LogSavePackage:Display: Finished SavePackage C:/Users/Dewz/Documents/Unreal Projects/Level_Design/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData_Auto1.uasset
+[2016.11.30-17.52.55:870][568]LogFileHelpers: Auto-saving content packages took 0.010
+[2016.11.30-17.55.13:923][853]LogMaterial: Missing cached shader map for material M_Rock_Sandstone, compiling. 
+[2016.11.30-17.55.14:507][853]LogMaterial: Missing cached shader map for material M_Rock_Sandstone, compiling. 
+[2016.11.30-17.55.14:516][853]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.11.30-17.55.14:546][853]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2016.11.30-17.55.14:550][853]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2016.11.30-17.55.14:555][853]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_20, compiling. 
+[2016.11.30-17.55.14:559][853]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_63, compiling. 
+[2016.11.30-17.55.14:563][853]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_64, compiling. 
+[2016.11.30-17.55.14:568][853]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_65, compiling. 
+[2016.11.30-17.55.14:572][853]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_21, compiling. 
+[2016.11.30-17.55.14:576][853]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2016.11.30-17.55.14:581][853]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2016.11.30-17.55.15:253][871]MaterialEditorStats: Info Base pass shader with static lighting: 94 instructions
+[2016.11.30-17.55.15:253][871]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 68 instructions
+[2016.11.30-17.55.15:253][871]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.11.30-17.55.15:253][871]MaterialEditorStats: Info Texture samplers: 6/16
+[2016.11.30-17.55.32:680][902]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2016.11.30-17.55.45:895][473]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2016.11.30-17.56.16:671][139]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2016.11.30-17.56.31:919][950]Cmd: DELETE
+[2016.11.30-17.56.31:919][950]Cmd: ACTOR DELETE
+[2016.11.30-17.56.31:919][950]LogEditorActor: Deleted Actor: PointLight
+[2016.11.30-17.56.31:928][950]LogEditorActor: Deleted 1 Actors (0.009 secs)
+[2016.11.30-17.56.35:697][394]MapCheck: New page: Map Check
+[2016.11.30-17.56.35:716][394]Cmd: MAP REBUILD ALLVISIBLE
+[2016.11.30-17.56.35:716][394]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2016.11.30-17.56.35:724][394]LightingResults: New page: Lighting Build - 30 Nov 2016 17:56:35
+[2016.11.30-17.56.35:730][394]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2016.11.30-17.56.35:733][394]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2016.11.30-17.56.35:733][394]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2016.11.30-17.56.35:733][394]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2016.11.30-17.56.35:733][394]LogSwarmInterface: [TryOpenConnection] Local Process ID is 216
+[2016.11.30-17.56.40:241][394]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2016.11.30-17.56.40:241][394]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2016.11.30-17.56.40:241][394]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2016.11.30-17.56.40:241][394]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2016.11.30-17.56.40:241][394]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2016.11.30-17.56.40:241][394]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2016.11.30-17.56.40:327][394]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2016.11.30-17.56.40:327][394]MapCheck: New page: Industrial_Map - 30 Nov 2016 17:56:40
+[2016.11.30-17.56.40:371][394]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 43.654ms to complete.
+[2016.11.30-17.56.40:393][394]LogEditorBuildUtils: Build time 0:04
+[2016.11.30-17.56.40:407][394]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Rock_Sandstone, compiling. 
+[2016.11.30-17.56.40:411][394]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Rock_Sandstone, compiling. 
+[2016.11.30-17.56.40:429][395]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Concrete_Tiles, compiling. 
+[2016.11.30-17.56.40:434][395]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Concrete_Tiles, compiling. 
+[2016.11.30-17.56.44:012][665]Job is a success!
+[2016.11.30-17.56.44:399][666]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
+[2016.11.30-17.56.44:399][666]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1)
+[2016.11.30-17.56.44:399][666]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT)
+[2016.11.30-17.56.44:399][666]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
+[2016.11.30-17.56.44:399][666]LogTexture:Display: Building textures: ShadowMapTexture2D_4 (G8)
+[2016.11.30-17.56.44:399][666]LogTexture:Display: Building textures: ShadowMapTexture2D_5 (G8)
+[2016.11.30-17.56.44:421][666]Lightmass on DEWZ: 3.00 sec total, 60 ms importing, 3 ms setup, 823 ms photons, 2.09 sec processing, 0 ms extra exporting [34/34 mappings]. Threads: 14.5 sec total, 9.08 sec processing.
+[2016.11.30-17.56.44:429][666]LogStaticLightingSystem: Illumination: 8.69 sec (189 ms encoding lightmaps, 97 ms encoding shadowmaps)
+[2016.11.30-17.56.44:429][666]LogStaticLightingSystem: Lightmap texture memory:  2.0 MB (0.0 MB streaming, 2.0 MB non-streaming), 4 textures
+[2016.11.30-17.56.44:429][666]LogStaticLightingSystem: Shadowmap texture memory: 0.7 MB (0.0 MB streaming, 0.7 MB non-streaming), 2 textures
+[2016.11.30-17.56.45:243][666]DumpUnbuiltLightIteractions
+[2016.11.30-17.56.45:243][666]Lights with unbuilt interactions: 0
+[2016.11.30-17.56.45:243][666]
+[2016.11.30-17.56.45:243][666]Primitives with unbuilt interactions: 0
+[2016.11.30-17.56.45:251][667]Cmd: MAP CHECK NOTIFYRESULTS
+[2016.11.30-17.56.45:251][667]MapCheck: New page: Industrial_Map - 30 Nov 2016 17:56:45
+[2016.11.30-17.56.45:297][667]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 45.762ms to complete.
+[2016.11.30-17.59.09:503][829]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Industrial_Map" FILE="C:/Users/Dewz/Documents/Unreal Projects/Level_Design/Content/Industrial_Map.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.11.30-17.59.09:531][829]LogSavePackage: Save=20.11ms
+[2016.11.30-17.59.09:531][829]LogSavePackage: Moving 'C:/Users/Dewz/Documents/Unreal Projects/Level_Design/Saved/Industrial_MapA9C821D74D3494D298E64E839F3F2087.tmp' to 'C:/Users/Dewz/Documents/Unreal Projects/Level_Design/Content/Industrial_Map.umap'
+[2016.11.30-17.59.09:533][829]LogSavePackage:Display: Finished SavePackage C:/Users/Dewz/Documents/Unreal Projects/Level_Design/Content/Industrial_Map.umap
+[2016.11.30-17.59.09:543][829]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Industrial_Map_BuiltData" FILE="C:/Users/Dewz/Documents/Unreal Projects/Level_Design/Content/Industrial_Map_BuiltData.uasset" SILENT=true
+[2016.11.30-17.59.09:603][829]LogSavePackage: Save=53.26ms
+[2016.11.30-17.59.09:603][829]LogSavePackage: Moving 'C:/Users/Dewz/Documents/Unreal Projects/Level_Design/Saved/Industrial_Map_BuiltData4F12F8C34CF823BF3B7B5EAF0078AC69.tmp' to 'C:/Users/Dewz/Documents/Unreal Projects/Level_Design/Content/Industrial_Map_BuiltData.uasset'
+[2016.11.30-17.59.09:607][829]LogSavePackage:Display: Finished SavePackage C:/Users/Dewz/Documents/Unreal Projects/Level_Design/Content/Industrial_Map_BuiltData.uasset
+[2016.11.30-17.59.40:834][194]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Industrial_Map" FILE="C:/Users/Dewz/Documents/Unreal Projects/Level_Design/Content/Industrial_Map.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.11.30-17.59.40:859][194]LogSavePackage: Save=18.95ms
+[2016.11.30-17.59.40:859][194]LogSavePackage: Moving 'C:/Users/Dewz/Documents/Unreal Projects/Level_Design/Saved/Industrial_Map102239D14B204B8F3E9B6BB73D2F5025.tmp' to 'C:/Users/Dewz/Documents/Unreal Projects/Level_Design/Content/Industrial_Map.umap'
+[2016.11.30-17.59.40:860][194]LogSavePackage:Display: Finished SavePackage C:/Users/Dewz/Documents/Unreal Projects/Level_Design/Content/Industrial_Map.umap
+[2016.11.30-17.59.40:871][194]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Industrial_Map_BuiltData" FILE="C:/Users/Dewz/Documents/Unreal Projects/Level_Design/Content/Industrial_Map_BuiltData.uasset" SILENT=true
+[2016.11.30-17.59.40:925][194]LogSavePackage: Save=52.81ms
+[2016.11.30-17.59.40:925][194]LogSavePackage: Moving 'C:/Users/Dewz/Documents/Unreal Projects/Level_Design/Saved/Industrial_Map_BuiltDataCBDD260A4CC0192BA0FB0395A4CF089B.tmp' to 'C:/Users/Dewz/Documents/Unreal Projects/Level_Design/Content/Industrial_Map_BuiltData.uasset'
+[2016.11.30-17.59.40:926][194]LogSavePackage:Display: Finished SavePackage C:/Users/Dewz/Documents/Unreal Projects/Level_Design/Content/Industrial_Map_BuiltData.uasset
+[2016.11.30-18.00.08:288][773]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:/Users/Dewz/Desktop/Models/FBX Files/Barrier.FBX)
+[2016.11.30-18.00.08:392][773]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2016.11.30-18.00.08:392][773]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2016.11.30-18.00.08:392][773]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2016.11.30-18.00.08:392][773]LogFbx: ItemName: Model, ItemCount : 1
+[2016.11.30-18.00.08:392][773]LogFbx: ItemName: Geometry, ItemCount : 1
+[2016.11.30-18.00.08:398][773]LogFbx: Loading FBX Scene from C:/Users/Dewz/Desktop/Models/FBX Files/Barrier.FBX
+[2016.11.30-18.00.08:408][773]LogFbx: FBX Scene Loaded Succesfully
+[2016.11.30-18.00.57:389][773]LogFbx: Loading FBX Scene from C:/Users/Dewz/Desktop/Models/FBX Files/Barrier.FBX
+[2016.11.30-18.00.57:394][773]LogFbx: FBX Scene Loaded Succesfully
+[2016.11.30-18.00.57:399][773]LogStaticMesh: Building static mesh Barrier...
+[2016.11.30-18.00.57:446][773]LogStaticMesh: Built static mesh [0.05s] /Game/Models/Barrier.Barrier
+[2016.11.30-18.00.57:447][773]LogStaticMesh:Warning: Barrier has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2016.11.30-18.00.57:454][773]FBXImport:Warning: Warning No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2016.11.30-18.00.57:454][773]FBXImport:Warning: Warning Barrier has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2016.11.30-18.00.57:488][773]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:/Users/Dewz/Desktop/Models/FBX Files/Crate.FBX)
+[2016.11.30-18.00.57:494][773]LogFbx: Loading FBX Scene from C:/Users/Dewz/Desktop/Models/FBX Files/Crate.FBX
+[2016.11.30-18.00.57:499][773]LogFbx: FBX Scene Loaded Succesfully
+[2016.11.30-18.00.57:500][773]LogFbx:Warning: Triangulating static mesh Industrial Crate
+[2016.11.30-18.00.57:509][773]LogStaticMesh: Building static mesh Crate...
+[2016.11.30-18.00.57:513][773]LogStaticMesh: Built static mesh [0.00s] /Game/Models/Crate.Crate
+[2016.11.30-18.00.57:514][773]LogStaticMesh:Warning: Crate has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2016.11.30-18.00.57:517][773]FBXImport:Warning: Warning No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2016.11.30-18.00.57:517][773]FBXImport:Warning: Warning Crate has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2016.11.30-18.00.57:521][773]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:/Users/Dewz/Desktop/Models/FBX Files/Decking.FBX)
+[2016.11.30-18.00.57:530][773]LogFbx: Loading FBX Scene from C:/Users/Dewz/Desktop/Models/FBX Files/Decking.FBX
+[2016.11.30-18.00.57:534][773]LogFbx: FBX Scene Loaded Succesfully
+[2016.11.30-18.00.57:537][773]LogStaticMesh: Building static mesh Decking...
+[2016.11.30-18.00.57:565][773]LogStaticMesh: Built static mesh [0.03s] /Game/Models/Decking.Decking
+[2016.11.30-18.00.57:568][773]FBXImport:Warning: Warning No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2016.11.30-18.00.57:572][773]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:/Users/Dewz/Desktop/Models/FBX Files/ForkLift Ramp.FBX)
+[2016.11.30-18.00.57:579][773]LogFbx: Loading FBX Scene from C:/Users/Dewz/Desktop/Models/FBX Files/ForkLift Ramp.FBX
+[2016.11.30-18.00.57:584][773]LogFbx: FBX Scene Loaded Succesfully
+[2016.11.30-18.00.57:586][773]LogStaticMesh: Building static mesh ForkLift_Ramp...
+[2016.11.30-18.00.57:589][773]LogStaticMesh: Built static mesh [0.00s] /Game/Models/ForkLift_Ramp.ForkLift_Ramp
+[2016.11.30-18.00.57:593][773]FBXImport:Warning: Warning No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2016.11.30-18.00.57:596][773]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:/Users/Dewz/Desktop/Models/FBX Files/Ladder.FBX)
+[2016.11.30-18.00.57:602][773]LogFbx: Loading FBX Scene from C:/Users/Dewz/Desktop/Models/FBX Files/Ladder.FBX
+[2016.11.30-18.00.57:607][773]LogFbx: FBX Scene Loaded Succesfully
+[2016.11.30-18.00.57:609][773]LogStaticMesh: Building static mesh Ladder...
+[2016.11.30-18.00.57:623][773]LogStaticMesh: Built static mesh [0.01s] /Game/Models/Ladder.Ladder
+[2016.11.30-18.00.57:627][773]FBXImport:Warning: Warning No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2016.11.30-18.00.57:632][773]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:/Users/Dewz/Desktop/Models/FBX Files/Large Container.FBX)
+[2016.11.30-18.00.57:639][773]LogFbx: Loading FBX Scene from C:/Users/Dewz/Desktop/Models/FBX Files/Large Container.FBX
+[2016.11.30-18.00.57:643][773]LogFbx: FBX Scene Loaded Succesfully
+[2016.11.30-18.00.57:646][773]LogStaticMesh: Building static mesh Large_Container...
+[2016.11.30-18.00.57:655][773]LogStaticMesh: Built static mesh [0.01s] /Game/Models/Large_Container.Large_Container
+[2016.11.30-18.00.57:655][773]LogStaticMesh:Warning: Large_Container has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2016.11.30-18.00.57:658][773]FBXImport:Warning: Warning No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2016.11.30-18.00.57:658][773]FBXImport:Warning: Warning Large_Container has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2016.11.30-18.00.57:662][773]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:/Users/Dewz/Desktop/Models/FBX Files/Large Pillar.FBX)
+[2016.11.30-18.00.57:671][773]LogFbx: Loading FBX Scene from C:/Users/Dewz/Desktop/Models/FBX Files/Large Pillar.FBX
+[2016.11.30-18.00.57:676][773]LogFbx: FBX Scene Loaded Succesfully
+[2016.11.30-18.00.57:679][773]LogStaticMesh: Building static mesh Large_Pillar...
+[2016.11.30-18.00.57:683][773]LogStaticMesh: Built static mesh [0.00s] /Game/Models/Large_Pillar.Large_Pillar
+[2016.11.30-18.00.57:686][773]FBXImport:Warning: Warning No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2016.11.30-18.00.57:689][773]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:/Users/Dewz/Desktop/Models/FBX Files/Oil Barrel.FBX)
+[2016.11.30-18.00.57:697][773]LogFbx: Loading FBX Scene from C:/Users/Dewz/Desktop/Models/FBX Files/Oil Barrel.FBX
+[2016.11.30-18.00.57:701][773]LogFbx: FBX Scene Loaded Succesfully
+[2016.11.30-18.00.57:704][773]LogStaticMesh: Building static mesh Oil_Barrel...
+[2016.11.30-18.00.57:712][773]LogStaticMesh: Built static mesh [0.01s] /Game/Models/Oil_Barrel.Oil_Barrel
+[2016.11.30-18.00.57:713][773]LogStaticMesh:Warning: Oil_Barrel has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2016.11.30-18.00.57:716][773]FBXImport:Warning: Warning No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2016.11.30-18.00.57:716][773]FBXImport:Warning: Warning Oil_Barrel has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2016.11.30-18.00.57:719][773]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:/Users/Dewz/Desktop/Models/FBX Files/Out Of Bounds.FBX)
+[2016.11.30-18.00.57:725][773]LogFbx: Loading FBX Scene from C:/Users/Dewz/Desktop/Models/FBX Files/Out Of Bounds.FBX
+[2016.11.30-18.00.57:730][773]LogFbx: FBX Scene Loaded Succesfully
+[2016.11.30-18.00.57:732][773]LogStaticMesh: Building static mesh Out_Of_Bounds...
+[2016.11.30-18.00.57:737][773]LogStaticMesh: Built static mesh [0.01s] /Game/Models/Out_Of_Bounds.Out_Of_Bounds
+[2016.11.30-18.00.57:738][773]LogStaticMesh:Warning: Out_Of_Bounds has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2016.11.30-18.00.57:741][773]FBXImport:Warning: Warning No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2016.11.30-18.00.57:741][773]FBXImport:Warning: Warning Out_Of_Bounds has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2016.11.30-18.00.57:744][773]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:/Users/Dewz/Desktop/Models/FBX Files/Ramp.FBX)
+[2016.11.30-18.00.57:750][773]LogFbx: Loading FBX Scene from C:/Users/Dewz/Desktop/Models/FBX Files/Ramp.FBX
+[2016.11.30-18.00.57:754][773]LogFbx: FBX Scene Loaded Succesfully
+[2016.11.30-18.00.57:756][773]LogFbx:Warning: Triangulating static mesh Coastal Ramp
+[2016.11.30-18.00.57:760][773]LogStaticMesh: Building static mesh Ramp...
+[2016.11.30-18.00.57:763][773]LogStaticMesh: Built static mesh [0.00s] /Game/Models/Ramp.Ramp
+[2016.11.30-18.00.57:766][773]FBXImport:Warning: Warning No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2016.11.30-18.00.57:769][773]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:/Users/Dewz/Desktop/Models/FBX Files/Small Pillar.FBX)
+[2016.11.30-18.00.57:777][773]LogFbx: Loading FBX Scene from C:/Users/Dewz/Desktop/Models/FBX Files/Small Pillar.FBX
+[2016.11.30-18.00.57:781][773]LogFbx: FBX Scene Loaded Succesfully
+[2016.11.30-18.00.57:784][773]LogStaticMesh: Building static mesh Small_Pillar...
+[2016.11.30-18.00.57:788][773]LogStaticMesh: Built static mesh [0.00s] /Game/Models/Small_Pillar.Small_Pillar
+[2016.11.30-18.00.57:791][773]FBXImport:Warning: Warning No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2016.11.30-18.00.57:794][773]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:/Users/Dewz/Desktop/Models/FBX Files/Standard Barrel.FBX)
+[2016.11.30-18.00.57:800][773]LogFbx: Loading FBX Scene from C:/Users/Dewz/Desktop/Models/FBX Files/Standard Barrel.FBX
+[2016.11.30-18.00.57:805][773]LogFbx: FBX Scene Loaded Succesfully
+[2016.11.30-18.00.57:807][773]LogStaticMesh: Building static mesh Standard_Barrel...
+[2016.11.30-18.00.57:815][773]LogStaticMesh: Built static mesh [0.01s] /Game/Models/Standard_Barrel.Standard_Barrel
+[2016.11.30-18.00.57:816][773]LogStaticMesh:Warning: Standard_Barrel has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2016.11.30-18.00.57:820][773]FBXImport:Warning: Warning No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2016.11.30-18.00.57:820][773]FBXImport:Warning: Warning Standard_Barrel has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2016.11.30-18.00.57:823][773]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:/Users/Dewz/Desktop/Models/FBX Files/Table.FBX)
+[2016.11.30-18.00.57:830][773]LogFbx: Loading FBX Scene from C:/Users/Dewz/Desktop/Models/FBX Files/Table.FBX
+[2016.11.30-18.00.57:834][773]LogFbx: FBX Scene Loaded Succesfully
+[2016.11.30-18.00.57:836][773]LogStaticMesh: Building static mesh Table...
+[2016.11.30-18.00.57:841][773]LogStaticMesh: Built static mesh [0.00s] /Game/Models/Table.Table
+[2016.11.30-18.00.57:841][773]LogStaticMesh:Warning: Table has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2016.11.30-18.00.57:844][773]FBXImport:Warning: Warning No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2016.11.30-18.00.57:844][773]FBXImport:Warning: Warning Table has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2016.11.30-18.00.57:847][773]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:/Users/Dewz/Desktop/Models/FBX Files/Window.FBX)
+[2016.11.30-18.00.57:856][773]LogFbx: Loading FBX Scene from C:/Users/Dewz/Desktop/Models/FBX Files/Window.FBX
+[2016.11.30-18.00.57:861][773]LogFbx: FBX Scene Loaded Succesfully
+[2016.11.30-18.00.57:864][773]LogStaticMesh: Building static mesh Window...
+[2016.11.30-18.00.57:875][773]LogStaticMesh: Built static mesh [0.01s] /Game/Models/Window.Window
+[2016.11.30-18.00.57:877][773]LogStaticMesh:Warning: Window has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2016.11.30-18.00.57:880][773]FBXImport:Warning: Warning No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2016.11.30-18.00.57:880][773]FBXImport:Warning: Warning Window has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2016.11.30-18.00.57:884][773]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:/Users/Dewz/Desktop/Models/FBX Files/Wooden Door.FBX)
+[2016.11.30-18.00.57:890][773]LogFbx: Loading FBX Scene from C:/Users/Dewz/Desktop/Models/FBX Files/Wooden Door.FBX
+[2016.11.30-18.00.57:894][773]LogFbx: FBX Scene Loaded Succesfully
+[2016.11.30-18.00.57:897][773]LogStaticMesh: Building static mesh Wooden_Door...
+[2016.11.30-18.00.57:899][773]LogStaticMesh: Built static mesh [0.00s] /Game/Models/Wooden_Door.Wooden_Door
+[2016.11.30-18.00.57:900][773]LogStaticMesh:Warning: Wooden_Door has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2016.11.30-18.00.57:902][773]FBXImport:Warning: Warning No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2016.11.30-18.00.57:902][773]FBXImport:Warning: Warning Wooden_Door has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2016.11.30-18.01.03:009][352]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2016.11.30-18.02.10:572][451]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2016.11.30-18.02.17:089][178]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2016.11.30-18.04.26:454][468]Cmd: TRANSACTION UNDO
+[2016.11.30-18.04.26:454][468]LogEditorTransaction: Undo Move Actors
+[2016.11.30-18.04.30:411][940]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2016.11.30-18.04.38:985][956]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2016.11.30-18.05.14:992][212]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush6)
+[2016.11.30-18.05.19:438][738]Cmd: TRANSACTION UNDO
+[2016.11.30-18.05.19:438][738]LogEditorTransaction: Undo Edit X
+[2016.11.30-18.05.19:441][738]LogActorComponent: ~FComponentReregisterContext: (/Game/Industrial_Map.Industrial_Map:PersistentLevel.BoxBrush2.BrushComponent0) Component already registered.
+[2016.11.30-18.08.49:418][548]LogEditorViewport: Clicking on Actor (LMB): AtmosphericFog (Atmospheric Fog)
+[2016.11.30-18.08.54:058][ 96]Cmd: DELETE
+[2016.11.30-18.08.54:058][ 96]Cmd: ACTOR DELETE
+[2016.11.30-18.08.54:058][ 96]LogEditorActor: Deleted Actor: AtmosphericFog
+[2016.11.30-18.08.54:065][ 96]LogEditorActor: Deleted 1 Actors (0.007 secs)
+[2016.11.30-18.08.57:292][482]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Industrial_Map" FILE="C:/Users/Dewz/Documents/Unreal Projects/Level_Design/Content/Industrial_Map.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.11.30-18.08.57:380][482]LogSavePackage: Save=78.32ms
+[2016.11.30-18.08.57:380][482]LogSavePackage: Moving 'C:/Users/Dewz/Documents/Unreal Projects/Level_Design/Saved/Industrial_MapCC65C4E0448A788DBBB10A93409BDFEA.tmp' to 'C:/Users/Dewz/Documents/Unreal Projects/Level_Design/Content/Industrial_Map.umap'
+[2016.11.30-18.08.57:382][482]LogSavePackage:Display: Finished SavePackage C:/Users/Dewz/Documents/Unreal Projects/Level_Design/Content/Industrial_Map.umap
+[2016.11.30-18.08.57:402][482]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Industrial_Map_BuiltData" FILE="C:/Users/Dewz/Documents/Unreal Projects/Level_Design/Content/Industrial_Map_BuiltData.uasset" SILENT=true
+[2016.11.30-18.08.57:457][482]LogSavePackage: Save=51.94ms
+[2016.11.30-18.08.57:457][482]LogSavePackage: Moving 'C:/Users/Dewz/Documents/Unreal Projects/Level_Design/Saved/Industrial_Map_BuiltData7575E93441130A338F143CA0D2C8857F.tmp' to 'C:/Users/Dewz/Documents/Unreal Projects/Level_Design/Content/Industrial_Map_BuiltData.uasset'
+[2016.11.30-18.08.57:458][482]LogSavePackage:Display: Finished SavePackage C:/Users/Dewz/Documents/Unreal Projects/Level_Design/Content/Industrial_Map_BuiltData.uasset
+[2016.11.30-18.08.59:126][682]MapCheck: New page: Map Check
+[2016.11.30-18.08.59:137][682]Cmd: MAP REBUILD ALLVISIBLE
+[2016.11.30-18.08.59:137][682]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2016.11.30-18.08.59:147][682]LightingResults: New page: Lighting Build - 30 Nov 2016 18:08:59
+[2016.11.30-18.08.59:153][682]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2016.11.30-18.08.59:155][682]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2016.11.30-18.08.59:155][682]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2016.11.30-18.08.59:155][682]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2016.11.30-18.08.59:155][682]LogSwarmInterface: [TryOpenConnection] Local Process ID is 216
+[2016.11.30-18.09.03:665][682]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2016.11.30-18.09.03:665][682]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2016.11.30-18.09.03:665][682]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2016.11.30-18.09.03:665][682]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2016.11.30-18.09.03:665][682]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2016.11.30-18.09.03:665][682]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2016.11.30-18.09.03:782][682]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2016.11.30-18.09.03:782][682]MapCheck: New page: Industrial_Map - 30 Nov 2016 18:09:03
+[2016.11.30-18.09.03:827][682]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 45.586ms to complete.
+[2016.11.30-18.09.03:849][682]LogEditorBuildUtils: Build time 0:04
+[2016.11.30-18.09.03:861][682]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Basic_Floor, compiling. 
+[2016.11.30-18.09.03:865][682]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Basic_Floor, compiling. 
+[2016.11.30-18.09.07:562][969]Job is a success!
+[2016.11.30-18.09.07:936][970]LogTexture:Display: Building textures: SkyOcclusion0_1 (AutoDXT)
+[2016.11.30-18.09.07:936][970]LogTexture:Display: Building textures: HQ_Lightmap1_1 (AutoDXT)
+[2016.11.30-18.09.07:936][970]LogTexture:Display: Building textures: HQ_Lightmap1_2 (AutoDXT)
+[2016.11.30-18.09.07:936][970]LogTexture:Display: Building textures: SkyOcclusion0_2 (AutoDXT)
+[2016.11.30-18.09.07:936][970]LogTexture:Display: Building textures: LQ_Lightmap_1_1 (DXT1)
+[2016.11.30-18.09.07:936][970]LogTexture:Display: Building textures: LQ_Lightmap_1_2 (DXT1)
+[2016.11.30-18.09.08:319][970]LogTexture:Display: Building textures: ShadowMapTexture2D_6 (G8)
+[2016.11.30-18.09.08:319][970]LogTexture:Display: Building textures: ShadowMapTexture2D_7 (G8)
+[2016.11.30-18.09.08:337][970]Lightmass on DEWZ: 3.59 sec total, 63 ms importing, 3 ms setup, 846 ms photons, 2.66 sec processing, 0 ms extra exporting [48/48 mappings]. Threads: 18.5 sec total, 10.6 sec processing.
+[2016.11.30-18.09.08:341][970]LogStaticLightingSystem: Illumination: 9.17 sec (263 ms encoding lightmaps, 382 ms encoding shadowmaps)
+[2016.11.30-18.09.08:341][970]LogStaticLightingSystem: Lightmap texture memory:  2.7 MB (0.0 MB streaming, 2.7 MB non-streaming), 4 textures
+[2016.11.30-18.09.08:341][970]LogStaticLightingSystem: Shadowmap texture memory: 2.7 MB (0.0 MB streaming, 2.7 MB non-streaming), 2 textures
+[2016.11.30-18.09.08:668][970]DumpUnbuiltLightIteractions
+[2016.11.30-18.09.08:668][970]Lights with unbuilt interactions: 0
+[2016.11.30-18.09.08:668][970]
+[2016.11.30-18.09.08:668][970]Primitives with unbuilt interactions: 0
+[2016.11.30-18.09.08:674][971]Cmd: MAP CHECK NOTIFYRESULTS
+[2016.11.30-18.09.08:674][971]MapCheck: New page: Industrial_Map - 30 Nov 2016 18:09:08
+[2016.11.30-18.09.08:857][971]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 183.291ms to complete.
+[2016.11.30-18.12.09:653][664]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (Light Source)
+[2016.11.30-18.12.14:052][188]MapCheck: New page: Map Check
+[2016.11.30-18.12.14:059][188]Cmd: MAP REBUILD ALLVISIBLE
+[2016.11.30-18.12.14:059][188]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2016.11.30-18.12.14:069][188]LightingResults: New page: Lighting Build - 30 Nov 2016 18:12:14
+[2016.11.30-18.12.14:075][188]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2016.11.30-18.12.14:077][188]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2016.11.30-18.12.14:077][188]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2016.11.30-18.12.14:077][188]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2016.11.30-18.12.14:077][188]LogSwarmInterface: [TryOpenConnection] Local Process ID is 216
+[2016.11.30-18.12.18:585][188]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2016.11.30-18.12.18:585][188]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2016.11.30-18.12.18:585][188]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2016.11.30-18.12.18:585][188]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2016.11.30-18.12.18:585][188]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2016.11.30-18.12.18:585][188]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2016.11.30-18.12.18:699][188]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2016.11.30-18.12.18:699][188]MapCheck: New page: Industrial_Map - 30 Nov 2016 18:12:18
+[2016.11.30-18.12.18:746][188]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 46.356ms to complete.
+[2016.11.30-18.12.18:768][188]LogEditorBuildUtils: Build time 0:04
+[2016.11.30-18.12.22:140][450]Job is a success!
+[2016.11.30-18.12.22:511][452]LogTexture:Display: Building textures: SkyOcclusion1_1 (AutoDXT)
+[2016.11.30-18.12.22:511][452]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
+[2016.11.30-18.12.22:511][452]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT)
+[2016.11.30-18.12.22:511][452]LogTexture:Display: Building textures: SkyOcclusion1_2 (AutoDXT)
+[2016.11.30-18.12.22:511][452]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
+[2016.11.30-18.12.22:511][452]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1)
+[2016.11.30-18.12.22:893][452]LogTexture:Display: Building textures: ShadowMapTexture2D_8 (G8)
+[2016.11.30-18.12.22:893][452]LogTexture:Display: Building textures: ShadowMapTexture2D_9 (G8)
+[2016.11.30-18.12.22:908][452]Lightmass on DEWZ: 3.62 sec total, 61 ms importing, 3 ms setup, 856 ms photons, 2.69 sec processing, 0 ms extra exporting [48/48 mappings]. Threads: 18.6 sec total, 10.5 sec processing.
+[2016.11.30-18.12.22:916][452]LogStaticLightingSystem: Illumination: 8.83 sec (257 ms encoding lightmaps, 382 ms encoding shadowmaps)
+[2016.11.30-18.12.22:916][452]LogStaticLightingSystem: Lightmap texture memory:  2.7 MB (0.0 MB streaming, 2.7 MB non-streaming), 4 textures
+[2016.11.30-18.12.22:916][452]LogStaticLightingSystem: Shadowmap texture memory: 2.7 MB (0.0 MB streaming, 2.7 MB non-streaming), 2 textures
+[2016.11.30-18.12.23:588][452]DumpUnbuiltLightIteractions
+[2016.11.30-18.12.23:588][452]Lights with unbuilt interactions: 0
+[2016.11.30-18.12.23:588][452]
+[2016.11.30-18.12.23:588][452]Primitives with unbuilt interactions: 0
+[2016.11.30-18.12.23:595][453]Cmd: MAP CHECK NOTIFYRESULTS
+[2016.11.30-18.12.23:595][453]MapCheck: New page: Industrial_Map - 30 Nov 2016 18:12:23
+[2016.11.30-18.12.23:784][453]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 188.675ms to complete.
+[2016.11.30-18.13.06:588][464]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2016.11.30-18.13.07:741][600]MapCheck: New page: Map Check
+[2016.11.30-18.13.07:751][600]Cmd: MAP REBUILD ALLVISIBLE
+[2016.11.30-18.13.07:751][600]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2016.11.30-18.13.07:761][600]LightingResults: New page: Lighting Build - 30 Nov 2016 18:13:07
+[2016.11.30-18.13.07:768][600]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2016.11.30-18.13.07:769][600]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2016.11.30-18.13.07:769][600]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2016.11.30-18.13.07:770][600]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2016.11.30-18.13.07:770][600]LogSwarmInterface: [TryOpenConnection] Local Process ID is 216
+[2016.11.30-18.13.12:279][600]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2016.11.30-18.13.12:279][600]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2016.11.30-18.13.12:279][600]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2016.11.30-18.13.12:279][600]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2016.11.30-18.13.12:279][600]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2016.11.30-18.13.12:279][600]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2016.11.30-18.13.12:365][600]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2016.11.30-18.13.12:365][600]MapCheck: New page: Industrial_Map - 30 Nov 2016 18:13:12
+[2016.11.30-18.13.12:409][600]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 44.69ms to complete.
+[2016.11.30-18.13.12:431][600]LogEditorBuildUtils: Build time 0:04
+[2016.11.30-18.13.15:760][852]Job is a success!
+[2016.11.30-18.13.16:127][853]LogTexture:Display: Building textures: SkyOcclusion0_1 (AutoDXT)
+[2016.11.30-18.13.16:127][853]LogTexture:Display: Building textures: HQ_Lightmap1_1 (AutoDXT)
+[2016.11.30-18.13.16:127][853]LogTexture:Display: Building textures: HQ_Lightmap1_2 (AutoDXT)
+[2016.11.30-18.13.16:127][853]LogTexture:Display: Building textures: SkyOcclusion0_2 (AutoDXT)
+[2016.11.30-18.13.16:127][853]LogTexture:Display: Building textures: LQ_Lightmap_1_1 (DXT1)
+[2016.11.30-18.13.16:127][853]LogTexture:Display: Building textures: LQ_Lightmap_1_2 (DXT1)
+[2016.11.30-18.13.16:221][853]LogTexture:Display: Building textures: ShadowMapTexture2D_10 (G8)
+[2016.11.30-18.13.16:221][853]LogTexture:Display: Building textures: ShadowMapTexture2D_11 (G8)
+[2016.11.30-18.13.16:241][853]Lightmass on DEWZ: 3.28 sec total, 58 ms importing, 3 ms setup, 851 ms photons, 2.35 sec processing, 0 ms extra exporting [49/49 mappings]. Threads: 16.3 sec total, 10.4 sec processing.
+[2016.11.30-18.13.16:248][853]LogStaticLightingSystem: Illumination: 8.47 sec (257 ms encoding lightmaps, 90 ms encoding shadowmaps)
+[2016.11.30-18.13.16:248][853]LogStaticLightingSystem: Lightmap texture memory:  2.7 MB (0.0 MB streaming, 2.7 MB non-streaming), 4 textures
+[2016.11.30-18.13.16:248][853]LogStaticLightingSystem: Shadowmap texture memory: 0.7 MB (0.0 MB streaming, 0.7 MB non-streaming), 2 textures
+[2016.11.30-18.13.16:281][853]DumpUnbuiltLightIteractions
+[2016.11.30-18.13.16:281][853]Lights with unbuilt interactions: 0
+[2016.11.30-18.13.16:281][853]
+[2016.11.30-18.13.16:281][853]Primitives with unbuilt interactions: 0
+[2016.11.30-18.13.16:288][854]Cmd: MAP CHECK NOTIFYRESULTS
+[2016.11.30-18.13.16:288][854]MapCheck: New page: Industrial_Map - 30 Nov 2016 18:13:16
+[2016.11.30-18.13.16:333][854]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 44.231ms to complete.
+[2016.11.30-18.14.07:958][998]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight)
+[2016.11.30-18.14.13:509][659]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight2)
+[2016.11.30-18.14.38:164][593]LogEditorViewport: Clicking on Actor (CTRL LMB): PointLight (PointLight3)
+[2016.11.30-18.14.54:015][480]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight4)
+[2016.11.30-18.15.01:694][392]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight6)
+[2016.11.30-18.15.32:010][965]LogActorFactory: Actor Factory created Crate
+[2016.11.30-18.15.32:484][ 20]LogActorFactory: Actor Factory created Crate
+[2016.11.30-18.15.36:184][460]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Crate)
+[2016.11.30-18.16.00:282][270]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Crate)
+[2016.11.30-18.16.31:540][989]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2016.11.30-18.16.37:433][692]MapCheck: New page: Map Check
+[2016.11.30-18.16.37:443][692]Cmd: MAP REBUILD ALLVISIBLE
+[2016.11.30-18.16.37:443][692]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2016.11.30-18.16.37:455][692]LightingResults: New page: Lighting Build - 30 Nov 2016 18:16:37
+[2016.11.30-18.16.37:461][692]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2016.11.30-18.16.37:462][692]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2016.11.30-18.16.37:462][692]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2016.11.30-18.16.37:463][692]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2016.11.30-18.16.37:463][692]LogSwarmInterface: [TryOpenConnection] Local Process ID is 216
+[2016.11.30-18.16.41:971][692]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2016.11.30-18.16.41:972][692]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2016.11.30-18.16.41:972][692]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2016.11.30-18.16.41:972][692]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2016.11.30-18.16.41:972][692]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2016.11.30-18.16.41:972][692]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2016.11.30-18.16.42:086][692]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2016.11.30-18.16.42:086][692]MapCheck: New page: Industrial_Map - 30 Nov 2016 18:16:42
+[2016.11.30-18.16.42:086][692]MapCheck:Error: Error WorldSettings_1 Maps need lighting rebuilt 
+[2016.11.30-18.16.42:131][692]MapCheck: Info Map check complete: 1 Error(s), 0 Warning(s), took 44.973ms to complete.
+[2016.11.30-18.16.42:152][692]LogEditorBuildUtils: Build time 0:04
+[2016.11.30-18.16.47:601][166]Job is a success!
+[2016.11.30-18.16.47:749][167]LightingResults:Error: Error PointLight5 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2016.11.30-18.16.48:034][167]LogTexture:Display: Building textures: SkyOcclusion1_1 (AutoDXT)
+[2016.11.30-18.16.48:034][167]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
+[2016.11.30-18.16.48:034][167]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
+[2016.11.30-18.16.48:034][167]LogTexture:Display: Building textures: SkyOcclusion1_2 (AutoDXT)
+[2016.11.30-18.16.48:034][167]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT)
+[2016.11.30-18.16.48:034][167]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1)
+[2016.11.30-18.16.48:035][167]LogTexture:Display: Building textures: SkyOcclusion0_3 (AutoDXT)
+[2016.11.30-18.16.48:035][167]LogTexture:Display: Building textures: HQ_Lightmap0_3 (AutoDXT)
+[2016.11.30-18.16.48:035][167]LogTexture:Display: Building textures: LQ_Lightmap_0_3 (DXT1)
+[2016.11.30-18.16.48:132][167]LogTexture:Display: Building textures: ShadowMapTexture2D_12 (BGRA8)
+[2016.11.30-18.16.48:132][167]LogTexture:Display: Building textures: ShadowMapTexture2D_13 (G8)
+[2016.11.30-18.16.48:149][167]Lightmass on DEWZ: 5.41 sec total, 63 ms importing, 4 ms setup, 1.96 sec photons, 3.37 sec processing, 0 ms extra exporting [55/55 mappings]. Threads: 23.4 sec total, 15.7 sec processing.
+[2016.11.30-18.16.48:156][167]LogStaticLightingSystem: Illumination: 10.6 sec (286 ms encoding lightmaps, 94 ms encoding shadowmaps)
+[2016.11.30-18.16.48:156][167]LogStaticLightingSystem: Lightmap texture memory:  2.8 MB (0.2 MB streaming, 2.7 MB non-streaming), 6 textures
+[2016.11.30-18.16.48:156][167]LogStaticLightingSystem: Shadowmap texture memory: 2.7 MB (0.0 MB streaming, 2.7 MB non-streaming), 2 textures
+[2016.11.30-18.16.48:974][167]DumpUnbuiltLightIteractions
+[2016.11.30-18.16.48:974][167]Lights with unbuilt interactions: 0
+[2016.11.30-18.16.48:974][167]
+[2016.11.30-18.16.48:974][167]Primitives with unbuilt interactions: 0
+[2016.11.30-18.16.48:982][168]Cmd: MAP CHECK NOTIFYRESULTS
+[2016.11.30-18.16.48:982][168]MapCheck: New page: Industrial_Map - 30 Nov 2016 18:16:48
+[2016.11.30-18.16.49:179][168]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 197.809ms to complete.
+[2016.11.30-18.17.34:551][555]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight9)
+[2016.11.30-18.17.55:533][ 26]LogActorFactory: Actor Factory created Large_Pillar
+[2016.11.30-18.17.56:132][ 95]LogActorFactory: Actor Factory created Large_Pillar
+[2016.11.30-18.19.02:906][ 66]Cmd: TRANSACTION UNDO
+[2016.11.30-18.19.02:906][ 66]LogEditorTransaction: Undo Move Actors
+[2016.11.30-18.19.03:296][109]Cmd: TRANSACTION UNDO
+[2016.11.30-18.19.03:296][109]LogEditorTransaction: Undo Move Actors
+[2016.11.30-18.19.04:914][301]Cmd: TRANSACTION UNDO
+[2016.11.30-18.19.04:914][301]LogEditorTransaction: Undo Move Actors
+[2016.11.30-18.19.05:300][344]Cmd: TRANSACTION UNDO
+[2016.11.30-18.19.05:300][344]LogEditorTransaction: Undo Move Actors
+[2016.11.30-18.19.06:372][469]Cmd: TRANSACTION UNDO
+[2016.11.30-18.19.06:372][469]LogEditorTransaction: Undo Move Actors
+[2016.11.30-18.19.07:429][595]Cmd: TRANSACTION UNDO
+[2016.11.30-18.19.07:429][595]LogEditorTransaction: Undo Move Actors
+[2016.11.30-18.19.14:378][420]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Large_Pillar)
+[2016.11.30-18.19.15:852][594]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Large_Pillar2)
+[2016.11.30-18.19.33:418][685]LogActorFactory: Actor Factory created Large_Container
+[2016.11.30-18.19.34:399][800]LogActorFactory: Actor Factory created Large_Container
+[2016.11.30-18.19.37:241][138]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Large_Container)
+[2016.11.30-18.20.15:310][623]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Large_Container)
+[2016.11.30-18.20.18:505][999]Cmd: TRANSACTION UNDO
+[2016.11.30-18.20.18:505][999]LogEditorTransaction: Undo Move Actors
+[2016.11.30-18.20.18:866][ 38]Cmd: TRANSACTION UNDO
+[2016.11.30-18.20.18:866][ 38]LogEditorTransaction: Undo Clicking on Actors
+[2016.11.30-18.20.19:246][ 80]Cmd: TRANSACTION UNDO
+[2016.11.30-18.20.19:246][ 80]LogEditorTransaction: Undo Move Actors
+[2016.11.30-18.20.27:610][ 75]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Large_Container)
+[2016.11.30-18.20.30:692][437]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Large_Container)
+[2016.11.30-18.20.39:962][539]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Large_Container2)
+[2016.11.30-18.20.42:905][884]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Large_Container3)
+[2016.11.30-18.20.49:209][635]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Large_Container2)
+[2016.11.30-18.21.15:180][740]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2016.11.30-18.21.16:344][879]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2016.11.30-18.21.17:341][998]LogTemp: Repeting last play command: Selected Viewport
+[2016.11.30-18.21.17:346][998]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.11.30-18.21.17:346][998]PIE: New page: PIE session: Industrial_Map (30 Nov 2016 18:21:17)
+[2016.11.30-18.21.17:346][998]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Industrial_Map
+[2016.11.30-18.21.17:350][998]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003796s)
+[2016.11.30-18.21.17:351][998]LogAIModule: Creating AISystem for world Industrial_Map
+[2016.11.30-18.21.17:351][998]LogPlayLevel: PIE: World Init took: (0.000488s)
+[2016.11.30-18.21.17:351][998]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Industrial_Map.Industrial_Map to /Game/UEDPIE_0_Industrial_Map.Industrial_Map (0.004440s)
+[2016.11.30-18.21.17:364][998]LogInit: XAudio2 using 'Speakers (Sound Blaster Z)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.11.30-18.21.17:371][998]LogInit: FAudioDevice initialized.
+[2016.11.30-18.21.17:400][998]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2016.11.30-18.21.17:401][998]LogWorld: Bringing World /Game/UEDPIE_0_Industrial_Map.Industrial_Map up for play (max tick rate 0) at 2016.11.30-18.21.17
+[2016.11.30-18.21.17:401][998]LogWorld: Bringing up level for play took: 0.000995
+[2016.11.30-18.21.17:403][998]PIE: Info Play in editor start time for /Game/UEDPIE_0_Industrial_Map -0.484
+[2016.11.30-18.21.23:935][769]MapCheck: New page: Map Check
+[2016.11.30-18.21.23:944][769]Cmd: MAP REBUILD ALLVISIBLE
+[2016.11.30-18.21.23:944][769]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2016.11.30-18.21.23:955][769]LightingResults: New page: Lighting Build - 30 Nov 2016 18:21:23
+[2016.11.30-18.21.23:961][769]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2016.11.30-18.21.23:963][769]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2016.11.30-18.21.23:963][769]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2016.11.30-18.21.23:964][769]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2016.11.30-18.21.23:964][769]LogSwarmInterface: [TryOpenConnection] Local Process ID is 216
+[2016.11.30-18.21.28:473][769]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2016.11.30-18.21.28:473][769]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2016.11.30-18.21.28:473][769]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2016.11.30-18.21.28:473][769]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2016.11.30-18.21.28:473][769]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2016.11.30-18.21.28:473][769]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2016.11.30-18.21.28:593][769]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2016.11.30-18.21.28:593][769]MapCheck: New page: Industrial_Map - 30 Nov 2016 18:21:28
+[2016.11.30-18.21.28:594][769]MapCheck:Error: Error WorldSettings_1 Maps need lighting rebuilt 
+[2016.11.30-18.21.28:639][769]MapCheck: Info Map check complete: 1 Error(s), 0 Warning(s), took 45.514ms to complete.
+[2016.11.30-18.21.28:660][769]LogEditorBuildUtils: Build time 0:04
+[2016.11.30-18.21.34:882][328]Job is a success!
+[2016.11.30-18.21.35:008][329]LightingResults:Error: Error PointLight5 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2016.11.30-18.21.35:325][329]LogTexture:Display: Building textures: SkyOcclusion0_1 (AutoDXT)
+[2016.11.30-18.21.35:325][329]LogTexture:Display: Building textures: HQ_Lightmap1_1 (AutoDXT)
+[2016.11.30-18.21.35:325][329]LogTexture:Display: Building textures: LQ_Lightmap_1_1 (DXT1)
+[2016.11.30-18.21.35:325][329]LogTexture:Display: Building textures: SkyOcclusion0_2 (AutoDXT)
+[2016.11.30-18.21.35:326][329]LogTexture:Display: Building textures: HQ_Lightmap1_2 (AutoDXT)
+[2016.11.30-18.21.35:326][329]LogTexture:Display: Building textures: LQ_Lightmap_1_2 (DXT1)
+[2016.11.30-18.21.35:326][329]LogTexture:Display: Building textures: SkyOcclusion1_3 (AutoDXT)
+[2016.11.30-18.21.35:326][329]LogTexture:Display: Building textures: HQ_Lightmap1_3 (AutoDXT)
+[2016.11.30-18.21.35:326][329]LogTexture:Display: Building textures: LQ_Lightmap_1_3 (DXT1)
+[2016.11.30-18.21.35:422][329]LogTexture:Display: Building textures: ShadowMapTexture2D_14 (BGRA8)
+[2016.11.30-18.21.35:422][329]LogTexture:Display: Building textures: ShadowMapTexture2D_15 (BGRA8)
+[2016.11.30-18.21.35:422][329]LogTexture:Display: Building textures: ShadowMapTexture2D_16 (G8)
+[2016.11.30-18.21.35:438][329]Lightmass on DEWZ: 6.26 sec total, 63 ms importing, 5 ms setup, 2.38 sec photons, 3.80 sec processing, 0 ms extra exporting [62/62 mappings]. Threads: 26.4 sec total, 18.7 sec processing.
+[2016.11.30-18.21.35:446][329]LogStaticLightingSystem: Illumination: 11.4 sec (318 ms encoding lightmaps, 94 ms encoding shadowmaps)
+[2016.11.30-18.21.35:446][329]LogStaticLightingSystem: Lightmap texture memory:  3.3 MB (0.7 MB streaming, 2.7 MB non-streaming), 6 textures
+[2016.11.30-18.21.35:446][329]LogStaticLightingSystem: Shadowmap texture memory: 2.8 MB (0.2 MB streaming, 2.7 MB non-streaming), 3 textures
+[2016.11.30-18.21.35:475][329]DumpUnbuiltLightIteractions
+[2016.11.30-18.21.35:475][329]Lights with unbuilt interactions: 0
+[2016.11.30-18.21.35:475][329]
+[2016.11.30-18.21.35:475][329]Primitives with unbuilt interactions: 0
+[2016.11.30-18.21.35:482][330]Cmd: MAP CHECK NOTIFYRESULTS
+[2016.11.30-18.21.35:482][330]MapCheck: New page: Industrial_Map - 30 Nov 2016 18:21:35
+[2016.11.30-18.21.35:527][330]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 44.865ms to complete.
+[2016.11.30-18.21.43:820][303]Cmd: DELETE
+[2016.11.30-18.21.43:820][303]Cmd: ACTOR DELETE
+[2016.11.30-18.21.43:820][303]LogEditorActor: Deleted Actor: PointLight
+[2016.11.30-18.21.43:827][303]LogEditorActor: Deleted 1 Actors (0.008 secs)
+[2016.11.30-18.21.48:417][850]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Industrial_Map" FILE="C:/Users/Dewz/Documents/Unreal Projects/Level_Design/Saved/Autosaves/Game/Industrial_Map_Auto2.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2016.11.30-18.21.48:445][850]LogSavePackage: Save=26.33ms
+[2016.11.30-18.21.48:445][850]LogSavePackage: Moving 'C:/Users/Dewz/Documents/Unreal Projects/Level_Design/Saved/Industrial_Map_Auto228A1A9854BFD7F25D7A204B82B57F349.tmp' to 'C:/Users/Dewz/Documents/Unreal Projects/Level_Design/Saved/Autosaves/Game/Industrial_Map_Auto2.umap'
+[2016.11.30-18.21.48:446][850]LogSavePackage:Display: Finished SavePackage C:/Users/Dewz/Documents/Unreal Projects/Level_Design/Saved/Autosaves/Game/Industrial_Map_Auto2.umap
+[2016.11.30-18.21.48:448][850]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Industrial_Map_BuiltData" FILE="C:/Users/Dewz/Documents/Unreal Projects/Level_Design/Content/Industrial_Map_BuiltData.uasset" SILENT=true
+[2016.11.30-18.21.48:464][850]LogSavePackage: Save=12.66ms
+[2016.11.30-18.21.48:464][850]LogSavePackage: Moving 'C:/Users/Dewz/Documents/Unreal Projects/Level_Design/Saved/Industrial_Map_BuiltData149A0A40423E024627DC84B214FFE1CE.tmp' to 'C:/Users/Dewz/Documents/Unreal Projects/Level_Design/Content/Industrial_Map_BuiltData.uasset'
+[2016.11.30-18.21.48:465][850]LogSavePackage:Display: Finished SavePackage C:/Users/Dewz/Documents/Unreal Projects/Level_Design/Content/Industrial_Map_BuiltData.uasset
+[2016.11.30-18.21.48:466][850]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Industrial_Map' took 0.055
+[2016.11.30-18.21.48:466][850]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.055
+[2016.11.30-18.21.48:467][850]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Models/Barrier] ([1] browsable assets)...
+[2016.11.30-18.21.48:477][850]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Models/Barrier.Barrier]
+[2016.11.30-18.21.48:477][850]OBJ SavePackage: Finished generating thumbnails for package [/Game/Models/Barrier]
+[2016.11.30-18.21.48:477][850]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Barrier" FILE="C:/Users/Dewz/Documents/Unreal Projects/Level_Design/Saved/Autosaves/Game/Models/Barrier_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2016.11.30-18.21.48:486][850]LogSavePackage: Save=8.49ms
+[2016.11.30-18.21.48:486][850]LogSavePackage: Moving 'C:/Users/Dewz/Documents/Unreal Projects/Level_Design/Saved/Barrier_Auto2127A030E41ABF531E20325AA13FE59BE.tmp' to 'C:/Users/Dewz/Documents/Unreal Projects/Level_Design/Saved/Autosaves/Game/Models/Barrier_Auto2.uasset'
+[2016.11.30-18.21.48:487][850]LogSavePackage:Display: Finished SavePackage C:/Users/Dewz/Documents/Unreal Projects/Level_Design/Saved/Autosaves/Game/Models/Barrier_Auto2.uasset
+[2016.11.30-18.21.48:487][850]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Models/Crate] ([1] browsable assets)...
+[2016.11.30-18.21.48:497][850]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Models/Crate.Crate]
+[2016.11.30-18.21.48:497][850]OBJ SavePackage: Finished generating thumbnails for package [/Game/Models/Crate]
+[2016.11.30-18.21.48:497][850]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Crate" FILE="C:/Users/Dewz/Documents/Unreal Projects/Level_Design/Saved/Autosaves/Game/Models/Crate_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2016.11.30-18.21.48:506][850]LogSavePackage: Save=8.53ms
+[2016.11.30-18.21.48:506][850]LogSavePackage: Moving 'C:/Users/Dewz/Documents/Unreal Projects/Level_Design/Saved/Crate_Auto27389667C46C62ACB4A949A9DB3727671.tmp' to 'C:/Users/Dewz/Documents/Unreal Projects/Level_Design/Saved/Autosaves/Game/Models/Crate_Auto2.uasset'
+[2016.11.30-18.21.48:507][850]LogSavePackage:Display: Finished SavePackage C:/Users/Dewz/Documents/Unreal Projects/Level_Design/Saved/Autosaves/Game/Models/Crate_Auto2.uasset
+[2016.11.30-18.21.48:507][850]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Models/Decking] ([1] browsable assets)...
+[2016.11.30-18.21.48:516][850]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Models/Decking.Decking]
+[2016.11.30-18.21.48:516][850]OBJ SavePackage: Finished generating thumbnails for package [/Game/Models/Decking]
+[2016.11.30-18.21.48:516][850]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Decking" FILE="C:/Users/Dewz/Documents/Unreal Projects/Level_Design/Saved/Autosaves/Game/Models/Decking_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2016.11.30-18.21.48:525][850]LogSavePackage: Save=7.79ms
+[2016.11.30-18.21.48:525][850]LogSavePackage: Moving 'C:/Users/Dewz/Documents/Unreal Projects/Level_Design/Saved/Decking_Auto2C28633344E78F0DCECD969A528964DE4.tmp' to 'C:/Users/Dewz/Documents/Unreal Projects/Level_Design/Saved/Autosaves/Game/Models/Decking_Auto2.uasset'
+[2016.11.30-18.21.48:525][850]LogSavePackage:Display: Finished SavePackage C:/Users/Dewz/Documents/Unreal Projects/Level_Design/Saved/Autosaves/Game/Models/Decking_Auto2.uasset
+[2016.11.30-18.21.48:526][850]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Models/ForkLift_Ramp] ([1] browsable assets)...
+[2016.11.30-18.21.48:535][850]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Models/ForkLift_Ramp.ForkLift_Ramp]
+[2016.11.30-18.21.48:535][850]OBJ SavePackage: Finished generating thumbnails for package [/Game/Models/ForkLift_Ramp]
+[2016.11.30-18.21.48:535][850]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/ForkLift_Ramp" FILE="C:/Users/Dewz/Documents/Unreal Projects/Level_Design/Saved/Autosaves/Game/Models/ForkLift_Ramp_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2016.11.30-18.21.48:544][850]LogSavePackage: Save=7.95ms
+[2016.11.30-18.21.48:544][850]LogSavePackage: Moving 'C:/Users/Dewz/Documents/Unreal Projects/Level_Design/Saved/ForkLift_Ramp_Auto237DBF090427AF4C8FD117A84BEDA6938.tmp' to 'C:/Users/Dewz/Documents/Unreal Projects/Level_Design/Saved/Autosaves/Game/Models/ForkLift_Ramp_Auto2.uasset'
+[2016.11.30-18.21.48:544][850]LogSavePackage:Display: Finished SavePackage C:/Users/Dewz/Documents/Unreal Projects/Level_Design/Saved/Autosaves/Game/Models/ForkLift_Ramp_Auto2.uasset
+[2016.11.30-18.21.48:545][850]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Models/Ladder] ([1] browsable assets)...
+[2016.11.30-18.21.48:555][850]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Models/Ladder.Ladder]
+[2016.11.30-18.21.48:555][850]OBJ SavePackage: Finished generating thumbnails for package [/Game/Models/Ladder]
+[2016.11.30-18.21.48:555][850]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Ladder" FILE="C:/Users/Dewz/Documents/Unreal Projects/Level_Design/Saved/Autosaves/Game/Models/Ladder_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2016.11.30-18.21.48:564][850]LogSavePackage: Save=8.44ms
+[2016.11.30-18.21.48:564][850]LogSavePackage: Moving 'C:/Users/Dewz/Documents/Unreal Projects/Level_Design/Saved/Ladder_Auto2DA8D3C55453AF5A6458403B3005CABC6.tmp' to 'C:/Users/Dewz/Documents/Unreal Projects/Level_Design/Saved/Autosaves/Game/Models/Ladder_Auto2.uasset'
+[2016.11.30-18.21.48:564][850]LogSavePackage:Display: Finished SavePackage C:/Users/Dewz/Documents/Unreal Projects/Level_Design/Saved/Autosaves/Game/Models/Ladder_Auto2.uasset
+[2016.11.30-18.21.48:565][850]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Models/Large_Container] ([1] browsable assets)...
+[2016.11.30-18.21.48:574][850]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Models/Large_Container.Large_Container]
+[2016.11.30-18.21.48:574][850]OBJ SavePackage: Finished generating thumbnails for package [/Game/Models/Large_Container]
+[2016.11.30-18.21.48:584][850]LogSavePackage: Save=8.33ms
+[2016.11.30-18.21.48:584][850]LogSavePackage: Moving 'C:/Users/Dewz/Documents/Unreal Projects/Level_Design/Saved/Large_Container_Auto2BF5E20684579A8222F721D8BA65FF090.tmp' to 'C:/Users/Dewz/Documents/Unreal Projects/Level_Design/Saved/Autosaves/Game/Models/Large_Container_Auto2.uasset'
+[2016.11.30-18.21.48:584][850]LogSavePackage:Display: Finished SavePackage C:/Users/Dewz/Documents/Unreal Projects/Level_Design/Saved/Autosaves/Game/Models/Large_Container_Auto2.uasset
+[2016.11.30-18.21.48:584][850]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Models/Large_Pillar] ([1] browsable assets)...
+[2016.11.30-18.21.48:594][850]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Models/Large_Pillar.Large_Pillar]
+[2016.11.30-18.21.48:594][850]OBJ SavePackage: Finished generating thumbnails for package [/Game/Models/Large_Pillar]
+[2016.11.30-18.21.48:594][850]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Large_Pillar" FILE="C:/Users/Dewz/Documents/Unreal Projects/Level_Design/Saved/Autosaves/Game/Models/Large_Pillar_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2016.11.30-18.21.48:604][850]LogSavePackage: Save=8.67ms
+[2016.11.30-18.21.48:604][850]LogSavePackage: Moving 'C:/Users/Dewz/Documents/Unreal Projects/Level_Design/Saved/Large_Pillar_Auto29C85A2924C699E0D1719E79F010F85B3.tmp' to 'C:/Users/Dewz/Documents/Unreal Projects/Level_Design/Saved/Autosaves/Game/Models/Large_Pillar_Auto2.uasset'
+[2016.11.30-18.21.48:604][850]LogSavePackage:Display: Finished SavePackage C:/Users/Dewz/Documents/Unreal Projects/Level_Design/Saved/Autosaves/Game/Models/Large_Pillar_Auto2.uasset
+[2016.11.30-18.21.48:605][850]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Models/Oil_Barrel] ([1] browsable assets)...
+[2016.11.30-18.21.48:615][850]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Models/Oil_Barrel.Oil_Barrel]
+[2016.11.30-18.21.48:615][850]OBJ SavePackage: Finished generating thumbnails for package [/Game/Models/Oil_Barrel]
+[2016.11.30-18.21.48:615][850]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Oil_Barrel" FILE="C:/Users/Dewz/Documents/Unreal Projects/Level_Design/Saved/Autosaves/Game/Models/Oil_Barrel_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2016.11.30-18.21.48:624][850]LogSavePackage: Save=8.64ms
+[2016.11.30-18.21.48:624][850]LogSavePackage: Moving 'C:/Users/Dewz/Documents/Unreal Projects/Level_Design/Saved/Oil_Barrel_Auto23300A9CC48ACFFFABFA958955316F1DC.tmp' to 'C:/Users/Dewz/Documents/Unreal Projects/Level_Design/Saved/Autosaves/Game/Models/Oil_Barrel_Auto2.uasset'
+[2016.11.30-18.21.48:625][850]LogSavePackage:Display: Finished SavePackage C:/Users/Dewz/Documents/Unreal Projects/Level_Design/Saved/Autosaves/Game/Models/Oil_Barrel_Auto2.uasset
+[2016.11.30-18.21.48:625][850]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Models/Out_Of_Bounds] ([1] browsable assets)...
+[2016.11.30-18.21.48:635][850]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Models/Out_Of_Bounds.Out_Of_Bounds]
+[2016.11.30-18.21.48:635][850]OBJ SavePackage: Finished generating thumbnails for package [/Game/Models/Out_Of_Bounds]
+[2016.11.30-18.21.48:635][850]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Out_Of_Bounds" FILE="C:/Users/Dewz/Documents/Unreal Projects/Level_Design/Saved/Autosaves/Game/Models/Out_Of_Bounds_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2016.11.30-18.21.48:644][850]LogSavePackage: Save=8.47ms
+[2016.11.30-18.21.48:644][850]LogSavePackage: Moving 'C:/Users/Dewz/Documents/Unreal Projects/Level_Design/Saved/Out_Of_Bounds_Auto29BB01552482234B06C6CAEBE2BE2353A.tmp' to 'C:/Users/Dewz/Documents/Unreal Projects/Level_Design/Saved/Autosaves/Game/Models/Out_Of_Bounds_Auto2.uasset'
+[2016.11.30-18.21.48:645][850]LogSavePackage:Display: Finished SavePackage C:/Users/Dewz/Documents/Unreal Projects/Level_Design/Saved/Autosaves/Game/Models/Out_Of_Bounds_Auto2.uasset
+[2016.11.30-18.21.48:645][850]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Models/Ramp] ([1] browsable assets)...
+[2016.11.30-18.21.48:655][850]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Models/Ramp.Ramp]
+[2016.11.30-18.21.48:655][850]OBJ SavePackage: Finished generating thumbnails for package [/Game/Models/Ramp]
+[2016.11.30-18.21.48:655][850]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Ramp" FILE="C:/Users/Dewz/Documents/Unreal Projects/Level_Design/Saved/Autosaves/Game/Models/Ramp_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2016.11.30-18.21.48:664][850]LogSavePackage: Save=8.26ms
+[2016.11.30-18.21.48:664][850]LogSavePackage: Moving 'C:/Users/Dewz/Documents/Unreal Projects/Level_Design/Saved/Ramp_Auto28940FFD7453D80A5384E519000F03D7C.tmp' to 'C:/Users/Dewz/Documents/Unreal Projects/Level_Design/Saved/Autosaves/Game/Models/Ramp_Auto2.uasset'
+[2016.11.30-18.21.48:665][850]LogSavePackage:Display: Finished SavePackage C:/Users/Dewz/Documents/Unreal Projects/Level_Design/Saved/Autosaves/Game/Models/Ramp_Auto2.uasset
+[2016.11.30-18.21.48:665][850]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Models/Small_Pillar] ([1] browsable assets)...
+[2016.11.30-18.21.48:674][850]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Models/Small_Pillar.Small_Pillar]
+[2016.11.30-18.21.48:674][850]OBJ SavePackage: Finished generating thumbnails for package [/Game/Models/Small_Pillar]
+[2016.11.30-18.21.48:675][850]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Small_Pillar" FILE="C:/Users/Dewz/Documents/Unreal Projects/Level_Design/Saved/Autosaves/Game/Models/Small_Pillar_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2016.11.30-18.21.48:684][850]LogSavePackage: Save=8.56ms
+[2016.11.30-18.21.48:684][850]LogSavePackage: Moving 'C:/Users/Dewz/Documents/Unreal Projects/Level_Design/Saved/Small_Pillar_Auto246DAEB5F45FD59250FC3A5BBFF1B08E6.tmp' to 'C:/Users/Dewz/Documents/Unreal Projects/Level_Design/Saved/Autosaves/Game/Models/Small_Pillar_Auto2.uasset'
+[2016.11.30-18.21.48:685][850]LogSavePackage:Display: Finished SavePackage C:/Users/Dewz/Documents/Unreal Projects/Level_Design/Saved/Autosaves/Game/Models/Small_Pillar_Auto2.uasset
+[2016.11.30-18.21.48:685][850]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Models/Standard_Barrel] ([1] browsable assets)...
+[2016.11.30-18.21.48:695][850]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Models/Standard_Barrel.Standard_Barrel]
+[2016.11.30-18.21.48:695][850]OBJ SavePackage: Finished generating thumbnails for package [/Game/Models/Standard_Barrel]
+[2016.11.30-18.21.48:704][850]LogSavePackage: Save=8.87ms
+[2016.11.30-18.21.48:704][850]LogSavePackage: Moving 'C:/Users/Dewz/Documents/Unreal Projects/Level_Design/Saved/Standard_Barrel_Auto25BD7543545100908ECA3F1B255C99697.tmp' to 'C:/Users/Dewz/Documents/Unreal Projects/Level_Design/Saved/Autosaves/Game/Models/Standard_Barrel_Auto2.uasset'
+[2016.11.30-18.21.48:705][850]LogSavePackage:Display: Finished SavePackage C:/Users/Dewz/Documents/Unreal Projects/Level_Design/Saved/Autosaves/Game/Models/Standard_Barrel_Auto2.uasset
+[2016.11.30-18.21.48:705][850]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Models/Table] ([1] browsable assets)...
+[2016.11.30-18.21.48:714][850]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Models/Table.Table]
+[2016.11.30-18.21.48:714][850]OBJ SavePackage: Finished generating thumbnails for package [/Game/Models/Table]
+[2016.11.30-18.21.48:714][850]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Table" FILE="C:/Users/Dewz/Documents/Unreal Projects/Level_Design/Saved/Autosaves/Game/Models/Table_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2016.11.30-18.21.48:724][850]LogSavePackage: Save=8.40ms
+[2016.11.30-18.21.48:724][850]LogSavePackage: Moving 'C:/Users/Dewz/Documents/Unreal Projects/Level_Design/Saved/Table_Auto2BA821A4941E45985722DE19B8C1942AF.tmp' to 'C:/Users/Dewz/Documents/Unreal Projects/Level_Design/Saved/Autosaves/Game/Models/Table_Auto2.uasset'
+[2016.11.30-18.21.48:724][850]LogSavePackage:Display: Finished SavePackage C:/Users/Dewz/Documents/Unreal Projects/Level_Design/Saved/Autosaves/Game/Models/Table_Auto2.uasset
+[2016.11.30-18.21.48:725][850]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Models/Window] ([1] browsable assets)...
+[2016.11.30-18.21.48:733][850]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Models/Window.Window]
+[2016.11.30-18.21.48:733][850]OBJ SavePackage: Finished generating thumbnails for package [/Game/Models/Window]
+[2016.11.30-18.21.48:733][850]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Window" FILE="C:/Users/Dewz/Documents/Unreal Projects/Level_Design/Saved/Autosaves/Game/Models/Window_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2016.11.30-18.21.48:742][850]LogSavePackage: Save=8.25ms
+[2016.11.30-18.21.48:742][850]LogSavePackage: Moving 'C:/Users/Dewz/Documents/Unreal Projects/Level_Design/Saved/Window_Auto2F959ED254A9848E732CC9190BEC0C402.tmp' to 'C:/Users/Dewz/Documents/Unreal Projects/Level_Design/Saved/Autosaves/Game/Models/Window_Auto2.uasset'
+[2016.11.30-18.21.48:743][850]LogSavePackage:Display: Finished SavePackage C:/Users/Dewz/Documents/Unreal Projects/Level_Design/Saved/Autosaves/Game/Models/Window_Auto2.uasset
+[2016.11.30-18.21.48:743][850]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Models/Wooden_Door] ([1] browsable assets)...
+[2016.11.30-18.21.48:752][850]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Models/Wooden_Door.Wooden_Door]
+[2016.11.30-18.21.48:752][850]OBJ SavePackage: Finished generating thumbnails for package [/Game/Models/Wooden_Door]
+[2016.11.30-18.21.48:752][850]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Wooden_Door" FILE="C:/Users/Dewz/Documents/Unreal Projects/Level_Design/Saved/Autosaves/Game/Models/Wooden_Door_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2016.11.30-18.21.48:762][850]LogSavePackage: Save=8.68ms
+[2016.11.30-18.21.48:762][850]LogSavePackage: Moving 'C:/Users/Dewz/Documents/Unreal Projects/Level_Design/Saved/Wooden_Door_Auto2DA8F9781423B0649CA72A3BCD3D4A86F.tmp' to 'C:/Users/Dewz/Documents/Unreal Projects/Level_Design/Saved/Autosaves/Game/Models/Wooden_Door_Auto2.uasset'
+[2016.11.30-18.21.48:763][850]LogSavePackage:Display: Finished SavePackage C:/Users/Dewz/Documents/Unreal Projects/Level_Design/Saved/Autosaves/Game/Models/Wooden_Door_Auto2.uasset
+[2016.11.30-18.21.48:763][850]LogFileHelpers: Auto-saving content packages took 0.297
+[2016.11.30-18.22.00:119][212]LogTemp: Repeting last play command: Selected Viewport
+[2016.11.30-18.22.00:124][212]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.11.30-18.22.00:124][212]PIE: New page: PIE session: Industrial_Map (30 Nov 2016 18:22:00)
+[2016.11.30-18.22.00:124][212]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Industrial_Map
+[2016.11.30-18.22.00:129][212]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004156s)
+[2016.11.30-18.22.00:129][212]LogAIModule: Creating AISystem for world Industrial_Map
+[2016.11.30-18.22.00:129][212]LogPlayLevel: PIE: World Init took: (0.000481s)
+[2016.11.30-18.22.00:129][212]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Industrial_Map.Industrial_Map to /Game/UEDPIE_0_Industrial_Map.Industrial_Map (0.004792s)
+[2016.11.30-18.22.00:141][212]LogInit: XAudio2 using 'Speakers (Sound Blaster Z)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.11.30-18.22.00:147][212]LogInit: FAudioDevice initialized.
+[2016.11.30-18.22.00:178][212]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2016.11.30-18.22.00:180][212]LogWorld: Bringing World /Game/UEDPIE_0_Industrial_Map.Industrial_Map up for play (max tick rate 0) at 2016.11.30-18.22.00
+[2016.11.30-18.22.00:180][212]LogWorld: Bringing up level for play took: 0.001074
+[2016.11.30-18.22.00:182][212]PIE: Info Play in editor start time for /Game/UEDPIE_0_Industrial_Map 0.294
+[2016.11.30-18.22.16:539][164]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=3032.723 Y=-2421.879 Z=156.804] for [FirstPersonProjectile_C]
+[2016.11.30-18.22.16:753][190]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=3085.285 Y=-2420.205 Z=160.933] for [FirstPersonProjectile_C]
+[2016.11.30-18.22.28:245][476]LogRenderer: Reallocating scene render targets to support 1208x584 NumSamples 1 (Frame:320400).
+[2016.11.30-18.22.28:281][477]LogRenderer: Reallocating scene render targets to support 1208x596 NumSamples 1 (Frame:320402).
+[2016.11.30-18.22.28:317][478]LogRenderer: Reallocating scene render targets to support 1208x616 NumSamples 1 (Frame:320404).
+[2016.11.30-18.22.28:364][479]LogRenderer: Reallocating scene render targets to support 1208x632 NumSamples 1 (Frame:320406).
+[2016.11.30-18.22.28:408][480]LogRenderer: Reallocating scene render targets to support 1208x644 NumSamples 1 (Frame:320408).
+[2016.11.30-18.22.28:453][481]LogRenderer: Reallocating scene render targets to support 1208x656 NumSamples 1 (Frame:320410).
+[2016.11.30-18.22.28:494][482]LogRenderer: Reallocating scene render targets to support 1208x676 NumSamples 1 (Frame:320412).
+[2016.11.30-18.22.28:533][483]LogRenderer: Reallocating scene render targets to support 1208x684 NumSamples 1 (Frame:320414).
+[2016.11.30-18.22.28:576][484]LogRenderer: Reallocating scene render targets to support 1208x692 NumSamples 1 (Frame:320416).
+[2016.11.30-18.22.28:613][485]LogRenderer: Reallocating scene render targets to support 1208x700 NumSamples 1 (Frame:320418).
+[2016.11.30-18.22.28:658][486]LogRenderer: Reallocating scene render targets to support 1208x708 NumSamples 1 (Frame:320420).
+[2016.11.30-18.22.28:698][487]LogRenderer: Reallocating scene render targets to support 1208x712 NumSamples 1 (Frame:320422).
+[2016.11.30-18.22.28:739][488]LogRenderer: Reallocating scene render targets to support 1208x720 NumSamples 1 (Frame:320424).
+[2016.11.30-18.22.28:780][489]LogRenderer: Reallocating scene render targets to support 1208x724 NumSamples 1 (Frame:320426).
+[2016.11.30-18.22.36:156][369]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Crate6)
+[2016.11.30-18.22.43:591][254]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Crate5)
+[2016.11.30-18.22.44:627][375]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Crate6)
+[2016.11.30-18.22.49:305][931]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Crate5)
+[2016.11.30-18.22.50:222][ 38]Cmd: DELETE
+[2016.11.30-18.22.50:222][ 38]Cmd: ACTOR DELETE
+[2016.11.30-18.22.50:222][ 38]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.11.30-18.22.50:229][ 38]LogEditorActor: Deleted 1 Actors (0.007 secs)
+[2016.11.30-18.22.50:668][ 91]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Crate4)
+[2016.11.30-18.22.50:768][ 99]Cmd: DELETE
+[2016.11.30-18.22.50:768][ 99]Cmd: ACTOR DELETE
+[2016.11.30-18.22.50:769][ 99]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.11.30-18.22.50:775][ 99]LogEditorActor: Deleted 1 Actors (0.006 secs)
+[2016.11.30-18.22.51:108][139]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Crate3)
+[2016.11.30-18.22.51:178][144]Cmd: DELETE
+[2016.11.30-18.22.51:178][144]Cmd: ACTOR DELETE
+[2016.11.30-18.22.51:178][144]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.11.30-18.22.51:185][144]LogEditorActor: Deleted 1 Actors (0.006 secs)
+[2016.11.30-18.22.51:543][187]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Crate)
+[2016.11.30-18.22.51:643][196]Cmd: DELETE
+[2016.11.30-18.22.51:643][196]Cmd: ACTOR DELETE
+[2016.11.30-18.22.51:643][196]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.11.30-18.22.51:649][196]LogEditorActor: Deleted 1 Actors (0.006 secs)
+[2016.11.30-18.22.52:196][262]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Crate2)
+[2016.11.30-18.22.52:306][272]Cmd: DELETE
+[2016.11.30-18.22.52:306][272]Cmd: ACTOR DELETE
+[2016.11.30-18.22.52:307][272]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.11.30-18.22.52:313][272]LogEditorActor: Deleted 1 Actors (0.006 secs)
+[2016.11.30-18.22.52:821][333]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Crate6)
+[2016.11.30-18.22.59:729][157]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Crate6)
+[2016.11.30-18.23.13:563][767]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Crate6)
+[2016.11.30-18.23.22:963][880]Cmd: TRANSACTION UNDO
+[2016.11.30-18.23.22:963][880]LogEditorTransaction: Undo Move Actors
+[2016.11.30-18.23.27:847][456]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Crate9)
+[2016.11.30-18.23.30:559][773]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Crate10)
+[2016.11.30-18.23.55:810][653]LogActorFactory: Actor Factory created ForkLift_Ramp
+[2016.11.30-18.23.56:423][724]LogActorFactory: Actor Factory created ForkLift_Ramp
+[2016.11.30-18.24.01:781][363]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (ForkLift_Ramp)
+[2016.11.30-18.24.30:234][698]Cmd: TRANSACTION UNDO
+[2016.11.30-18.24.30:234][698]LogEditorTransaction: Undo Move Actors
+[2016.11.30-18.24.57:666][970]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (ForkLift_Ramp)
+[2016.11.30-18.24.58:714][ 92]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (ForkLift_Ramp2)
+[2016.11.30-18.24.59:772][216]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (ForkLift_Ramp)
+[2016.11.30-18.25.04:601][789]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (ForkLift_Ramp2)
+[2016.11.30-18.25.09:186][334]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (ForkLift_Ramp)
+[2016.11.30-18.25.32:294][ 88]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2016.11.30-18.25.58:167][154]LogActorFactory: Actor Factory created Table
+[2016.11.30-18.25.58:769][222]LogActorFactory: Actor Factory created Table
+[2016.11.30-18.26.05:609][ 37]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Table)
+[2016.11.30-18.26.16:939][308]LogActorFactory: Actor Factory created Oil_Barrel
+[2016.11.30-18.26.17:510][375]LogActorFactory: Actor Factory created Oil_Barrel
+[2016.11.30-18.26.25:046][261]Cmd: TRANSACTION UNDO
+[2016.11.30-18.26.25:046][261]LogEditorTransaction: Undo Move Actors
+[2016.11.30-18.26.25:393][298]Cmd: TRANSACTION UNDO
+[2016.11.30-18.26.25:393][298]LogEditorTransaction: Undo Move Actors
+[2016.11.30-18.26.25:729][334]Cmd: TRANSACTION UNDO
+[2016.11.30-18.26.25:729][334]LogEditorTransaction: Undo Move Actors
+[2016.11.30-18.26.26:466][419]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Oil_Barrel)
+[2016.11.30-18.26.50:722][244]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Industrial_Map" FILE="C:/Users/Dewz/Documents/Unreal Projects/Level_Design/Content/Industrial_Map.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.11.30-18.26.50:768][244]LogSavePackage: Save=36.55ms
+[2016.11.30-18.26.50:768][244]LogSavePackage: Moving 'C:/Users/Dewz/Documents/Unreal Projects/Level_Design/Saved/Industrial_Map72E3B265402C527756368FBFC5E7E033.tmp' to 'C:/Users/Dewz/Documents/Unreal Projects/Level_Design/Content/Industrial_Map.umap'
+[2016.11.30-18.26.50:770][244]LogSavePackage:Display: Finished SavePackage C:/Users/Dewz/Documents/Unreal Projects/Level_Design/Content/Industrial_Map.umap
+[2016.11.30-18.26.50:790][244]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Industrial_Map_BuiltData" FILE="C:/Users/Dewz/Documents/Unreal Projects/Level_Design/Content/Industrial_Map_BuiltData.uasset" SILENT=true
+[2016.11.30-18.26.50:896][244]LogSavePackage: Save=94.53ms
+[2016.11.30-18.26.50:896][244]LogSavePackage: Moving 'C:/Users/Dewz/Documents/Unreal Projects/Level_Design/Saved/Industrial_Map_BuiltData2A0A7FE94CB8CC106B9B48A0BE6B6D1C.tmp' to 'C:/Users/Dewz/Documents/Unreal Projects/Level_Design/Content/Industrial_Map_BuiltData.uasset'
+[2016.11.30-18.26.50:899][244]LogSavePackage:Display: Finished SavePackage C:/Users/Dewz/Documents/Unreal Projects/Level_Design/Content/Industrial_Map_BuiltData.uasset
+[2016.11.30-18.26.51:785][350]LogTemp: Repeting last play command: Selected Viewport
+[2016.11.30-18.26.51:791][350]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.11.30-18.26.51:791][350]PIE: New page: PIE session: Industrial_Map (30 Nov 2016 18:26:51)
+[2016.11.30-18.26.51:791][350]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Industrial_Map
+[2016.11.30-18.26.51:796][350]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004134s)
+[2016.11.30-18.26.51:796][350]LogAIModule: Creating AISystem for world Industrial_Map
+[2016.11.30-18.26.51:796][350]LogPlayLevel: PIE: World Init took: (0.000465s)
+[2016.11.30-18.26.51:796][350]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Industrial_Map.Industrial_Map to /Game/UEDPIE_0_Industrial_Map.Industrial_Map (0.004772s)
+[2016.11.30-18.26.51:808][350]LogInit: XAudio2 using 'Speakers (Sound Blaster Z)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.11.30-18.26.51:814][350]LogInit: FAudioDevice initialized.
+[2016.11.30-18.26.51:842][350]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2016.11.30-18.26.51:844][350]LogWorld: Bringing World /Game/UEDPIE_0_Industrial_Map.Industrial_Map up for play (max tick rate 0) at 2016.11.30-18.26.51
+[2016.11.30-18.26.51:844][350]LogWorld: Bringing up level for play took: 0.001179
+[2016.11.30-18.26.51:846][350]PIE: Info Play in editor start time for /Game/UEDPIE_0_Industrial_Map -0.041
+[2016.11.30-18.26.54:779][691]MapCheck: New page: Map Check
+[2016.11.30-18.26.54:788][691]Cmd: MAP REBUILD ALLVISIBLE
+[2016.11.30-18.26.54:788][691]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2016.11.30-18.26.54:801][691]LightingResults: New page: Lighting Build - 30 Nov 2016 18:26:54
+[2016.11.30-18.26.54:807][691]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2016.11.30-18.26.54:809][691]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2016.11.30-18.26.54:809][691]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2016.11.30-18.26.54:810][691]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2016.11.30-18.26.54:810][691]LogSwarmInterface: [TryOpenConnection] Local Process ID is 216
+[2016.11.30-18.26.59:318][691]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2016.11.30-18.26.59:318][691]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2016.11.30-18.26.59:318][691]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2016.11.30-18.26.59:318][691]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2016.11.30-18.26.59:318][691]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2016.11.30-18.26.59:318][691]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2016.11.30-18.26.59:439][691]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2016.11.30-18.26.59:440][691]MapCheck: New page: Industrial_Map - 30 Nov 2016 18:26:59
+[2016.11.30-18.26.59:440][691]MapCheck:Error: Error WorldSettings_1 Maps need lighting rebuilt 
+[2016.11.30-18.26.59:485][691]MapCheck: Info Map check complete: 1 Error(s), 0 Warning(s), took 45.603ms to complete.
+[2016.11.30-18.26.59:507][691]LogEditorBuildUtils: Build time 0:04
+[2016.11.30-18.27.05:783][251]Job is a success!
+[2016.11.30-18.27.06:262][252]LogTexture:Display: Building textures: SkyOcclusion1_1 (AutoDXT)
+[2016.11.30-18.27.06:262][252]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
+[2016.11.30-18.27.06:262][252]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
+[2016.11.30-18.27.06:262][252]LogTexture:Display: Building textures: SkyOcclusion1_2 (AutoDXT)
+[2016.11.30-18.27.06:262][252]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT)
+[2016.11.30-18.27.06:262][252]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1)
+[2016.11.30-18.27.06:262][252]LogTexture:Display: Building textures: SkyOcclusion0_3 (AutoDXT)
+[2016.11.30-18.27.06:262][252]LogTexture:Display: Building textures: HQ_Lightmap0_3 (AutoDXT)
+[2016.11.30-18.27.06:262][252]LogTexture:Display: Building textures: LQ_Lightmap_0_3 (DXT1)
+[2016.11.30-18.27.06:359][252]LogTexture:Display: Building textures: ShadowMapTexture2D_17 (BGRA8)
+[2016.11.30-18.27.06:359][252]LogTexture:Display: Building textures: ShadowMapTexture2D_18 (BGRA8)
+[2016.11.30-18.27.06:359][252]LogTexture:Display: Building textures: ShadowMapTexture2D_19 (G8)
+[2016.11.30-18.27.06:376][252]Lightmass on DEWZ: 6.30 sec total, 67 ms importing, 8 ms setup, 2.20 sec photons, 4.00 sec processing, 0 ms extra exporting [73/73 mappings]. Threads: 27.8 sec total, 19.7 sec processing.
+[2016.11.30-18.27.06:380][252]LogStaticLightingSystem: Illumination: 11.5 sec (350 ms encoding lightmaps, 93 ms encoding shadowmaps)
+[2016.11.30-18.27.06:380][252]LogStaticLightingSystem: Lightmap texture memory:  3.3 MB (0.7 MB streaming, 2.7 MB non-streaming), 6 textures
+[2016.11.30-18.27.06:380][252]LogStaticLightingSystem: Shadowmap texture memory: 2.8 MB (0.2 MB streaming, 2.7 MB non-streaming), 3 textures
+[2016.11.30-18.27.07:321][252]DumpUnbuiltLightIteractions
+[2016.11.30-18.27.07:321][252]Lights with unbuilt interactions: 0
+[2016.11.30-18.27.07:321][252]
+[2016.11.30-18.27.07:321][252]Primitives with unbuilt interactions: 0
+[2016.11.30-18.27.07:328][253]Cmd: MAP CHECK NOTIFYRESULTS
+[2016.11.30-18.27.07:328][253]MapCheck: New page: Industrial_Map - 30 Nov 2016 18:27:07
+[2016.11.30-18.27.07:534][253]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 206.099ms to complete.
+[2016.11.30-18.27.09:852][531]LogTemp: Repeting last play command: Selected Viewport
+[2016.11.30-18.27.09:858][531]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.11.30-18.27.09:858][531]PIE: New page: PIE session: Industrial_Map (30 Nov 2016 18:27:09)
+[2016.11.30-18.27.09:858][531]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Industrial_Map
+[2016.11.30-18.27.09:862][531]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004348s)
+[2016.11.30-18.27.09:863][531]LogAIModule: Creating AISystem for world Industrial_Map
+[2016.11.30-18.27.09:863][531]LogPlayLevel: PIE: World Init took: (0.000402s)
+[2016.11.30-18.27.09:863][531]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Industrial_Map.Industrial_Map to /Game/UEDPIE_0_Industrial_Map.Industrial_Map (0.004886s)
+[2016.11.30-18.27.09:874][531]LogInit: XAudio2 using 'Speakers (Sound Blaster Z)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.11.30-18.27.09:880][531]LogInit: FAudioDevice initialized.
+[2016.11.30-18.27.09:912][531]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2016.11.30-18.27.09:914][531]LogWorld: Bringing World /Game/UEDPIE_0_Industrial_Map.Industrial_Map up for play (max tick rate 0) at 2016.11.30-18.27.09
+[2016.11.30-18.27.09:914][531]LogWorld: Bringing up level for play took: 0.001275
+[2016.11.30-18.27.09:915][531]PIE: Info Play in editor start time for /Game/UEDPIE_0_Industrial_Map 0.028
+[2016.11.30-18.27.36:278][678]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2016.11.30-18.27.49:641][278]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2016.11.30-18.27.50:587][391]LogTemp: Repeting last play command: Selected Viewport
+[2016.11.30-18.27.50:592][391]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.11.30-18.27.50:592][391]PIE: New page: PIE session: Industrial_Map (30 Nov 2016 18:27:50)
+[2016.11.30-18.27.50:592][391]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Industrial_Map
+[2016.11.30-18.27.50:597][391]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004322s)
+[2016.11.30-18.27.50:597][391]LogAIModule: Creating AISystem for world Industrial_Map
+[2016.11.30-18.27.50:597][391]LogPlayLevel: PIE: World Init took: (0.000380s)
+[2016.11.30-18.27.50:597][391]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Industrial_Map.Industrial_Map to /Game/UEDPIE_0_Industrial_Map.Industrial_Map (0.004841s)
+[2016.11.30-18.27.50:609][391]LogInit: XAudio2 using 'Speakers (Sound Blaster Z)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.11.30-18.27.50:615][391]LogInit: FAudioDevice initialized.
+[2016.11.30-18.27.50:647][391]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2016.11.30-18.27.50:649][391]LogWorld: Bringing World /Game/UEDPIE_0_Industrial_Map.Industrial_Map up for play (max tick rate 0) at 2016.11.30-18.27.50
+[2016.11.30-18.27.50:649][391]LogWorld: Bringing up level for play took: 0.001262
+[2016.11.30-18.27.50:672][391]PIE: Info Play in editor start time for /Game/UEDPIE_0_Industrial_Map 0.784
+[2016.11.30-18.28.27:276][772]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Industrial_Map" FILE="C:/Users/Dewz/Documents/Unreal Projects/Level_Design/Content/Industrial_Map.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.11.30-18.28.27:311][772]LogSavePackage: Save=28.37ms
+[2016.11.30-18.28.27:311][772]LogSavePackage: Moving 'C:/Users/Dewz/Documents/Unreal Projects/Level_Design/Saved/Industrial_MapD302560E4B4985574E13CEA045D8629D.tmp' to 'C:/Users/Dewz/Documents/Unreal Projects/Level_Design/Content/Industrial_Map.umap'
+[2016.11.30-18.28.27:313][772]LogSavePackage:Display: Finished SavePackage C:/Users/Dewz/Documents/Unreal Projects/Level_Design/Content/Industrial_Map.umap
+[2016.11.30-18.28.27:324][772]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Industrial_Map_BuiltData" FILE="C:/Users/Dewz/Documents/Unreal Projects/Level_Design/Content/Industrial_Map_BuiltData.uasset" SILENT=true
+[2016.11.30-18.28.27:428][772]LogSavePackage: Save=102.66ms
+[2016.11.30-18.28.27:428][772]LogSavePackage: Moving 'C:/Users/Dewz/Documents/Unreal Projects/Level_Design/Saved/Industrial_Map_BuiltData0A8705FE457C238466F372AE6B51C321.tmp' to 'C:/Users/Dewz/Documents/Unreal Projects/Level_Design/Content/Industrial_Map_BuiltData.uasset'
+[2016.11.30-18.28.27:430][772]LogSavePackage:Display: Finished SavePackage C:/Users/Dewz/Documents/Unreal Projects/Level_Design/Content/Industrial_Map_BuiltData.uasset
+[2016.11.30-18.28.31:676][200]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2016.11.30-18.28.31:722][202]LogTemp:Display: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.LevelDesign
+
+[2016.11.30-18.28.31:722][202]LogTemp:Display: CWD: D:\Program Files (x86)\Epic Games\4.14\Engine\Binaries\DotNet\IOS
+
+[2016.11.30-18.28.31:722][202]LogTemp:Display: Initial Dir: D:\Program Files (x86)\Epic Games\4.14
+
+[2016.11.30-18.28.31:722][202]LogTemp:Display: Env CWD: D:\Program Files (x86)\Epic Games\4.14\Engine\Binaries\DotNet\IOS
+
+[2016.11.30-18.28.31:738][203]LogTemp:Display: BranchPath = DEWZ/D/Program Files (x86)/Epic Games/4.14/Engine/Binaries --- GameBranchPath = DEWZ/D/Program Files (x86)/Epic Games/4.14/Engine/Binaries
+
+[2016.11.30-18.28.31:738][203]LogTemp:Display: IPP ERROR: Application exception: System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Users\Dewz\AppData\Local\Apple Computer\MobileDevice\Provisioning Profiles'.
+
+[2016.11.30-18.28.31:738][203]LogTemp:Display:    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+
+[2016.11.30-18.28.31:738][203]LogTemp:Display:    at System.IO.FileSystemEnumerableIterator`1.CommonInit()
+
+[2016.11.30-18.28.31:738][203]LogTemp:Display:    at System.IO.Directory.EnumerateFiles(String path, String searchPattern)
+
+[2016.11.30-18.28.31:738][203]LogTemp:Display:    at iPhonePackager.CodeSignatureBuilder.FindProvisions(String CFBundleIdentifier)
+
+[2016.11.30-18.28.31:738][203]LogTemp:Display:    at iPhonePackager.Program.Main(String[] args)
+
+[2016.11.30-18.28.39:803][154]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Barrier" FILE="C:/Users/Dewz/Documents/Unreal Projects/Level_Design/Content/Models/Barrier.uasset" SILENT=true
+[2016.11.30-18.28.39:813][154]LogSavePackage: Save=8.61ms
+[2016.11.30-18.28.39:813][154]LogSavePackage: Moving 'C:/Users/Dewz/Documents/Unreal Projects/Level_Design/Saved/BarrierBFE657C34899DC10D7370BBAA3ADB025.tmp' to 'C:/Users/Dewz/Documents/Unreal Projects/Level_Design/Content/Models/Barrier.uasset'
+[2016.11.30-18.28.39:814][154]LogSavePackage:Display: Finished SavePackage C:/Users/Dewz/Documents/Unreal Projects/Level_Design/Content/Models/Barrier.uasset
+[2016.11.30-18.28.39:825][154]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Crate" FILE="C:/Users/Dewz/Documents/Unreal Projects/Level_Design/Content/Models/Crate.uasset" SILENT=true
+[2016.11.30-18.28.39:834][154]LogSavePackage: Save=8.39ms
+[2016.11.30-18.28.39:834][154]LogSavePackage: Moving 'C:/Users/Dewz/Documents/Unreal Projects/Level_Design/Saved/CrateCD0B33884627DA23A2A0D790F0D7C0A9.tmp' to 'C:/Users/Dewz/Documents/Unreal Projects/Level_Design/Content/Models/Crate.uasset'
+[2016.11.30-18.28.39:836][154]LogSavePackage:Display: Finished SavePackage C:/Users/Dewz/Documents/Unreal Projects/Level_Design/Content/Models/Crate.uasset
+[2016.11.30-18.28.39:847][154]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Decking" FILE="C:/Users/Dewz/Documents/Unreal Projects/Level_Design/Content/Models/Decking.uasset" SILENT=true
+[2016.11.30-18.28.39:857][154]LogSavePackage: Save=7.96ms
+[2016.11.30-18.28.39:857][154]LogSavePackage: Moving 'C:/Users/Dewz/Documents/Unreal Projects/Level_Design/Saved/DeckingC6E692584222C7FCAEA19BAF20A359BA.tmp' to 'C:/Users/Dewz/Documents/Unreal Projects/Level_Design/Content/Models/Decking.uasset'
+[2016.11.30-18.28.39:858][154]LogSavePackage:Display: Finished SavePackage C:/Users/Dewz/Documents/Unreal Projects/Level_Design/Content/Models/Decking.uasset
+[2016.11.30-18.28.39:869][154]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/ForkLift_Ramp" FILE="C:/Users/Dewz/Documents/Unreal Projects/Level_Design/Content/Models/ForkLift_Ramp.uasset" SILENT=true
+[2016.11.30-18.28.39:878][154]LogSavePackage: Save=7.83ms
+[2016.11.30-18.28.39:878][154]LogSavePackage: Moving 'C:/Users/Dewz/Documents/Unreal Projects/Level_Design/Saved/ForkLift_Ramp72785703410160A85822ADA7E6C391DE.tmp' to 'C:/Users/Dewz/Documents/Unreal Projects/Level_Design/Content/Models/ForkLift_Ramp.uasset'
+[2016.11.30-18.28.39:879][154]LogSavePackage:Display: Finished SavePackage C:/Users/Dewz/Documents/Unreal Projects/Level_Design/Content/Models/ForkLift_Ramp.uasset
+[2016.11.30-18.28.39:890][154]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Ladder" FILE="C:/Users/Dewz/Documents/Unreal Projects/Level_Design/Content/Models/Ladder.uasset" SILENT=true
+[2016.11.30-18.28.39:900][154]LogSavePackage: Save=8.44ms
+[2016.11.30-18.28.39:900][154]LogSavePackage: Moving 'C:/Users/Dewz/Documents/Unreal Projects/Level_Design/Saved/LadderFC4E040D48D553CFC1F4F394B90E64CA.tmp' to 'C:/Users/Dewz/Documents/Unreal Projects/Level_Design/Content/Models/Ladder.uasset'
+[2016.11.30-18.28.39:901][154]LogSavePackage:Display: Finished SavePackage C:/Users/Dewz/Documents/Unreal Projects/Level_Design/Content/Models/Ladder.uasset
+[2016.11.30-18.28.39:912][154]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Large_Container" FILE="C:/Users/Dewz/Documents/Unreal Projects/Level_Design/Content/Models/Large_Container.uasset" SILENT=true
+[2016.11.30-18.28.39:921][154]LogSavePackage: Save=8.23ms
+[2016.11.30-18.28.39:921][154]LogSavePackage: Moving 'C:/Users/Dewz/Documents/Unreal Projects/Level_Design/Saved/Large_Container46AA93164467208FAF96C6BD740BC88F.tmp' to 'C:/Users/Dewz/Documents/Unreal Projects/Level_Design/Content/Models/Large_Container.uasset'
+[2016.11.30-18.28.39:923][154]LogSavePackage:Display: Finished SavePackage C:/Users/Dewz/Documents/Unreal Projects/Level_Design/Content/Models/Large_Container.uasset
+[2016.11.30-18.28.39:934][154]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Large_Pillar" FILE="C:/Users/Dewz/Documents/Unreal Projects/Level_Design/Content/Models/Large_Pillar.uasset" SILENT=true
+[2016.11.30-18.28.39:944][154]LogSavePackage: Save=8.89ms
+[2016.11.30-18.28.39:944][154]LogSavePackage: Moving 'C:/Users/Dewz/Documents/Unreal Projects/Level_Design/Saved/Large_Pillar285FBF664F354C77C225C4B0744ADC49.tmp' to 'C:/Users/Dewz/Documents/Unreal Projects/Level_Design/Content/Models/Large_Pillar.uasset'
+[2016.11.30-18.28.39:945][154]LogSavePackage:Display: Finished SavePackage C:/Users/Dewz/Documents/Unreal Projects/Level_Design/Content/Models/Large_Pillar.uasset
+[2016.11.30-18.28.39:956][154]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Oil_Barrel" FILE="C:/Users/Dewz/Documents/Unreal Projects/Level_Design/Content/Models/Oil_Barrel.uasset" SILENT=true
+[2016.11.30-18.28.39:966][154]LogSavePackage: Save=8.78ms
+[2016.11.30-18.28.39:966][154]LogSavePackage: Moving 'C:/Users/Dewz/Documents/Unreal Projects/Level_Design/Saved/Oil_Barrel821573064D7169139BC8D6A53E3D8594.tmp' to 'C:/Users/Dewz/Documents/Unreal Projects/Level_Design/Content/Models/Oil_Barrel.uasset'
+[2016.11.30-18.28.39:968][154]LogSavePackage:Display: Finished SavePackage C:/Users/Dewz/Documents/Unreal Projects/Level_Design/Content/Models/Oil_Barrel.uasset
+[2016.11.30-18.28.39:979][154]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Out_Of_Bounds" FILE="C:/Users/Dewz/Documents/Unreal Projects/Level_Design/Content/Models/Out_Of_Bounds.uasset" SILENT=true
+[2016.11.30-18.28.39:988][154]LogSavePackage: Save=8.61ms
+[2016.11.30-18.28.39:988][154]LogSavePackage: Moving 'C:/Users/Dewz/Documents/Unreal Projects/Level_Design/Saved/Out_Of_Bounds45AC7A31467662A454758BA0F4AD047C.tmp' to 'C:/Users/Dewz/Documents/Unreal Projects/Level_Design/Content/Models/Out_Of_Bounds.uasset'
+[2016.11.30-18.28.39:990][154]LogSavePackage:Display: Finished SavePackage C:/Users/Dewz/Documents/Unreal Projects/Level_Design/Content/Models/Out_Of_Bounds.uasset
+[2016.11.30-18.28.40:001][154]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Ramp" FILE="C:/Users/Dewz/Documents/Unreal Projects/Level_Design/Content/Models/Ramp.uasset" SILENT=true
+[2016.11.30-18.28.40:010][154]LogSavePackage: Save=8.42ms
+[2016.11.30-18.28.40:010][154]LogSavePackage: Moving 'C:/Users/Dewz/Documents/Unreal Projects/Level_Design/Saved/Ramp01A703834DF8E2F9E975F799F45466EF.tmp' to 'C:/Users/Dewz/Documents/Unreal Projects/Level_Design/Content/Models/Ramp.uasset'
+[2016.11.30-18.28.40:011][154]LogSavePackage:Display: Finished SavePackage C:/Users/Dewz/Documents/Unreal Projects/Level_Design/Content/Models/Ramp.uasset
+[2016.11.30-18.28.40:022][154]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Small_Pillar" FILE="C:/Users/Dewz/Documents/Unreal Projects/Level_Design/Content/Models/Small_Pillar.uasset" SILENT=true
+[2016.11.30-18.28.40:032][154]LogSavePackage: Save=8.52ms
+[2016.11.30-18.28.40:032][154]LogSavePackage: Moving 'C:/Users/Dewz/Documents/Unreal Projects/Level_Design/Saved/Small_Pillar4FFD1AB742D163A86ED00A8D0A55143A.tmp' to 'C:/Users/Dewz/Documents/Unreal Projects/Level_Design/Content/Models/Small_Pillar.uasset'
+[2016.11.30-18.28.40:033][154]LogSavePackage:Display: Finished SavePackage C:/Users/Dewz/Documents/Unreal Projects/Level_Design/Content/Models/Small_Pillar.uasset
+[2016.11.30-18.28.40:044][154]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Standard_Barrel" FILE="C:/Users/Dewz/Documents/Unreal Projects/Level_Design/Content/Models/Standard_Barrel.uasset" SILENT=true
+[2016.11.30-18.28.40:054][154]LogSavePackage: Save=8.63ms
+[2016.11.30-18.28.40:054][154]LogSavePackage: Moving 'C:/Users/Dewz/Documents/Unreal Projects/Level_Design/Saved/Standard_Barrel8A2286F641C8F6AA0AA99F9E9F7C43B2.tmp' to 'C:/Users/Dewz/Documents/Unreal Projects/Level_Design/Content/Models/Standard_Barrel.uasset'
+[2016.11.30-18.28.40:056][154]LogSavePackage:Display: Finished SavePackage C:/Users/Dewz/Documents/Unreal Projects/Level_Design/Content/Models/Standard_Barrel.uasset
+[2016.11.30-18.28.40:067][154]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Table" FILE="C:/Users/Dewz/Documents/Unreal Projects/Level_Design/Content/Models/Table.uasset" SILENT=true
+[2016.11.30-18.28.40:076][154]LogSavePackage: Save=8.38ms
+[2016.11.30-18.28.40:076][154]LogSavePackage: Moving 'C:/Users/Dewz/Documents/Unreal Projects/Level_Design/Saved/TableD8D60B6348590A057FEE2287A2C3CE7E.tmp' to 'C:/Users/Dewz/Documents/Unreal Projects/Level_Design/Content/Models/Table.uasset'
+[2016.11.30-18.28.40:078][154]LogSavePackage:Display: Finished SavePackage C:/Users/Dewz/Documents/Unreal Projects/Level_Design/Content/Models/Table.uasset
+[2016.11.30-18.28.40:088][154]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Window" FILE="C:/Users/Dewz/Documents/Unreal Projects/Level_Design/Content/Models/Window.uasset" SILENT=true
+[2016.11.30-18.28.40:097][154]LogSavePackage: Save=8.11ms
+[2016.11.30-18.28.40:097][154]LogSavePackage: Moving 'C:/Users/Dewz/Documents/Unreal Projects/Level_Design/Saved/Window0D8D8E124D7E27549F5F16B36AAD2306.tmp' to 'C:/Users/Dewz/Documents/Unreal Projects/Level_Design/Content/Models/Window.uasset'
+[2016.11.30-18.28.40:099][154]LogSavePackage:Display: Finished SavePackage C:/Users/Dewz/Documents/Unreal Projects/Level_Design/Content/Models/Window.uasset
+[2016.11.30-18.28.40:110][154]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Wooden_Door" FILE="C:/Users/Dewz/Documents/Unreal Projects/Level_Design/Content/Models/Wooden_Door.uasset" SILENT=true
+[2016.11.30-18.28.40:120][154]LogSavePackage: Save=8.71ms
+[2016.11.30-18.28.40:120][154]LogSavePackage: Moving 'C:/Users/Dewz/Documents/Unreal Projects/Level_Design/Saved/Wooden_Door4063CB934B041B772887899494883D6A.tmp' to 'C:/Users/Dewz/Documents/Unreal Projects/Level_Design/Content/Models/Wooden_Door.uasset'
+[2016.11.30-18.28.40:121][154]LogSavePackage:Display: Finished SavePackage C:/Users/Dewz/Documents/Unreal Projects/Level_Design/Content/Models/Wooden_Door.uasset
+[2016.11.30-18.28.41:602][309]Cmd: QUIT_EDITOR
+[2016.11.30-18.28.42:539][309]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.11.30-18.28.42:554][309]LogExit: Preparing to exit.
+[2016.11.30-18.28.43:382][309]LogExit: Editor shut down
+[2016.11.30-18.28.43:382][309]LogExit: Transaction tracking system shut down
+[2016.11.30-18.28.43:432][309]LogObj: Freed 0b from 0 cluster array pools.
+[2016.11.30-18.28.43:432][309]LogExit: Object subsystem successfully closed.
+[2016.11.30-18.28.43:449][309]LogD3D11RHI: Shutdown
+[2016.11.30-18.28.43:449][309]LogD3D11RHI: CleanupD3DDevice
+[2016.11.30-18.28.43:555][309]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.11.30-18.28.43:573][309]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2016.11.30-18.28.43:573][309]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BD5738484-4E37-A2B8-EA59-2BB5143CAF60%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.14.0-3195953%2B%2B%2BUE4%2BRelease-4.14&UserID=1d55a55b49e6aed189f7bb8caa47dcd8%7C80d4b8373658456a97f3fc04d1e746a1%7Cf17c1de7-3450-4a6d-aedd-e04c764394c5&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2016.11.30-18.28.43:594][309]LogModuleManager: Shutting down and abandoning module MaterialEditor (246)
+[2016.11.30-18.28.43:594][309]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (245)
+[2016.11.30-18.28.43:594][309]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (244)
+[2016.11.30-18.28.43:594][309]LogModuleManager: Shutting down and abandoning module NewLevelDialog (243)
+[2016.11.30-18.28.43:594][309]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (242)
+[2016.11.30-18.28.43:594][309]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (241)
+[2016.11.30-18.28.43:594][309]LogModuleManager: Shutting down and abandoning module CrashTracker (240)
+[2016.11.30-18.28.43:594][309]LogModuleManager: Shutting down and abandoning module SceneOutliner (239)
+[2016.11.30-18.28.43:594][309]LogModuleManager: Shutting down and abandoning module WidgetCarousel (238)
+[2016.11.30-18.28.43:594][309]LogModuleManager: Shutting down and abandoning module AddContentDialog (237)
+[2016.11.30-18.28.43:594][309]LogDirectoryWatcher: A directory notification for 'D:/Program Files (x86)/Epic Games/4.14/FeaturePacks/' was aborted.
+[2016.11.30-18.28.43:596][309]LogModuleManager: Shutting down and abandoning module GameplayTags (236)
+[2016.11.30-18.28.43:596][309]LogModuleManager: Shutting down and abandoning module EditorWidgets (235)
+[2016.11.30-18.28.43:596][309]LogModuleManager: Shutting down and abandoning module CollectionManager (234)
+[2016.11.30-18.28.43:596][309]LogDirectoryWatcher: A directory notification for 'C:/Users/Dewz/Documents/Unreal Projects/Level_Design/Content/Collections/' was aborted.
+[2016.11.30-18.28.43:596][309]LogDirectoryWatcher: A directory notification for 'C:/Users/Dewz/Documents/Unreal Projects/Level_Design/Content/Developers/Dewz/Collections/' was aborted.
+[2016.11.30-18.28.43:596][309]LogDirectoryWatcher: A directory notification for 'C:/Users/Dewz/Documents/Unreal Projects/Level_Design/Saved/Collections/' was aborted.
+[2016.11.30-18.28.43:596][309]LogModuleManager: Shutting down and abandoning module StatsViewer (233)
+[2016.11.30-18.28.43:596][309]LogModuleManager: Shutting down and abandoning module FoliageEdit (232)
+[2016.11.30-18.28.43:596][309]LogModuleManager: Shutting down and abandoning module LandscapeEditor (231)
+[2016.11.30-18.28.43:604][309]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (230)
+[2016.11.30-18.28.43:604][309]LogModuleManager: Shutting down and abandoning module ActorPickerMode (229)
+[2016.11.30-18.28.43:604][309]LogModuleManager: Shutting down and abandoning module GeometryMode (228)
+[2016.11.30-18.28.43:604][309]LogModuleManager: Shutting down and abandoning module TextureAlignMode (227)
+[2016.11.30-18.28.43:604][309]LogModuleManager: Shutting down and abandoning module BspMode (226)
+[2016.11.30-18.28.43:604][309]LogModuleManager: Shutting down and abandoning module HardwareSurvey (225)
+[2016.11.30-18.28.43:604][309]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (224)
+[2016.11.30-18.28.43:604][309]LogModuleManager: Shutting down and abandoning module AutomationWorker (223)
+[2016.11.30-18.28.43:605][309]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (222)
+[2016.11.30-18.28.43:605][309]LogModuleManager: Shutting down and abandoning module PlacementMode (221)
+[2016.11.30-18.28.43:605][309]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (220)
+[2016.11.30-18.28.43:605][309]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (219)
+[2016.11.30-18.28.43:605][309]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (218)
+[2016.11.30-18.28.43:605][309]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (217)
+[2016.11.30-18.28.43:605][309]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (216)
+[2016.11.30-18.28.43:605][309]LogModuleManager: Shutting down and abandoning module Media (215)
+[2016.11.30-18.28.43:605][309]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (214)
+[2016.11.30-18.28.43:605][309]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (213)
+[2016.11.30-18.28.43:605][309]LogModuleManager: Shutting down and abandoning module CharacterAI (212)
+[2016.11.30-18.28.43:605][309]LogModuleManager: Shutting down and abandoning module SequenceRecorder (211)
+[2016.11.30-18.28.43:605][309]LogModuleManager: Shutting down and abandoning module AudioCapture (210)
+[2016.11.30-18.28.43:605][309]LogModuleManager: Shutting down and abandoning module SmartSnapping (209)
+[2016.11.30-18.28.43:605][309]LogModuleManager: Shutting down and abandoning module SessionServices (208)
+[2016.11.30-18.28.43:605][309]LogModuleManager: Shutting down and abandoning module ViewportSnapping (207)
+[2016.11.30-18.28.43:605][309]LogModuleManager: Shutting down and abandoning module ViewportInteraction (206)
+[2016.11.30-18.28.43:605][309]LogModuleManager: Shutting down and abandoning module LogVisualizer (205)
+[2016.11.30-18.28.43:605][309]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (204)
+[2016.11.30-18.28.43:605][309]LogModuleManager: Shutting down and abandoning module IntroTutorials (203)
+[2016.11.30-18.28.43:605][309]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (202)
+[2016.11.30-18.28.43:605][309]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (201)
+[2016.11.30-18.28.43:605][309]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (200)
+[2016.11.30-18.28.43:605][309]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (199)
+[2016.11.30-18.28.43:929][309]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (198)
+[2016.11.30-18.28.43:929][309]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (197)
+[2016.11.30-18.28.43:929][309]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (196)
+[2016.11.30-18.28.43:929][309]LogModuleManager: Shutting down and abandoning module InputBindingEditor (195)
+[2016.11.30-18.28.43:929][309]LogModuleManager: Shutting down and abandoning module NiagaraEditor (194)
+[2016.11.30-18.28.43:929][309]LogModuleManager: Shutting down and abandoning module MergeActors (193)
+[2016.11.30-18.28.43:929][309]LogModuleManager: Shutting down and abandoning module SizeMap (192)
+[2016.11.30-18.28.43:929][309]LogModuleManager: Shutting down and abandoning module TreeMap (191)
+[2016.11.30-18.28.43:929][309]LogModuleManager: Shutting down and abandoning module ReferenceViewer (190)
+[2016.11.30-18.28.43:929][309]LogModuleManager: Shutting down and abandoning module LocalizationService (189)
+[2016.11.30-18.28.43:929][309]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (188)
+[2016.11.30-18.28.43:929][309]LogModuleManager: Shutting down and abandoning module HardwareTargeting (187)
+[2016.11.30-18.28.43:929][309]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (186)
+[2016.11.30-18.28.43:929][309]LogModuleManager: Shutting down and abandoning module UndoHistory (185)
+[2016.11.30-18.28.43:929][309]LogModuleManager: Shutting down and abandoning module UserFeedback (184)
+[2016.11.30-18.28.43:929][309]LogModuleManager: Shutting down and abandoning module XmlParser (183)
+[2016.11.30-18.28.43:929][309]LogModuleManager: Shutting down and abandoning module Blutility (182)
+[2016.11.30-18.28.43:929][309]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (181)
+[2016.11.30-18.28.43:929][309]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (180)
+[2016.11.30-18.28.43:929][309]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (179)
+[2016.11.30-18.28.43:929][309]LogModuleManager: Shutting down and abandoning module SettingsEditor (178)
+[2016.11.30-18.28.43:929][309]LogModuleManager: Shutting down and abandoning module ProjectLauncher (177)
+[2016.11.30-18.28.43:929][309]LogModuleManager: Shutting down and abandoning module SessionFrontend (176)
+[2016.11.30-18.28.43:929][309]LogModuleManager: Shutting down and abandoning module ProfilerClient (175)
+[2016.11.30-18.28.43:929][309]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (174)
+[2016.11.30-18.28.43:929][309]LogModuleManager: Shutting down and abandoning module DeviceManager (173)
+[2016.11.30-18.28.43:982][309]LogModuleManager: Shutting down and abandoning module AutomationController (172)
+[2016.11.30-18.28.43:982][309]LogModuleManager: Shutting down and abandoning module AutomationWindow (171)
+[2016.11.30-18.28.43:982][309]LogModuleManager: Shutting down and abandoning module Layers (170)
+[2016.11.30-18.28.43:986][309]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (169)
+[2016.11.30-18.28.43:986][309]LogModuleManager: Shutting down and abandoning module DetailCustomizations (168)
+[2016.11.30-18.28.43:986][309]LogModuleManager: Shutting down and abandoning module PackagesDialog (167)
+[2016.11.30-18.28.43:986][309]LogModuleManager: Shutting down and abandoning module AnimGraph (166)
+[2016.11.30-18.28.43:986][309]LogModuleManager: Shutting down and abandoning module Persona (165)
+[2016.11.30-18.28.43:986][309]LogModuleManager: Shutting down and abandoning module Kismet (164)
+[2016.11.30-18.28.43:987][309]LogModuleManager: Shutting down and abandoning module GraphEditor (163)
+[2016.11.30-18.28.43:987][309]LogModuleManager: Shutting down and abandoning module ClassViewer (162)
+[2016.11.30-18.28.43:987][309]LogModuleManager: Shutting down and abandoning module Toolbox (161)
+[2016.11.30-18.28.43:987][309]LogModuleManager: Shutting down and abandoning module ModuleUI (160)
+[2016.11.30-18.28.43:987][309]LogModuleManager: Shutting down and abandoning module MovieSceneTools (159)
+[2016.11.30-18.28.43:987][309]LogModuleManager: Shutting down and abandoning module OutputLog (158)
+[2016.11.30-18.28.43:987][309]LogModuleManager: Shutting down and abandoning module GammaUI (157)
+[2016.11.30-18.28.43:987][309]LogModuleManager: Shutting down and abandoning module Documentation (156)
+[2016.11.30-18.28.43:987][309]LogModuleManager: Shutting down and abandoning module Niagara (155)
+[2016.11.30-18.28.43:987][309]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (154)
+[2016.11.30-18.28.43:987][309]LogModuleManager: Shutting down and abandoning module AnalyticsET (153)
+[2016.11.30-18.28.43:987][309]LogModuleManager: Shutting down and abandoning module PortalServices (152)
+[2016.11.30-18.28.43:987][309]LogModuleManager: Shutting down and abandoning module PortalRpc (151)
+[2016.11.30-18.28.43:987][309]LogModuleManager: Shutting down and abandoning module MessagingRpc (150)
+[2016.11.30-18.28.43:987][309]LogModuleManager: Shutting down and abandoning module GameplayDebugger (149)
+[2016.11.30-18.28.43:988][309]LogModuleManager: Shutting down and abandoning module AITestSuite (148)
+[2016.11.30-18.28.43:988][309]LogModuleManager: Shutting down and abandoning module AIModule (147)
+[2016.11.30-18.28.43:988][309]LogModuleManager: Shutting down and abandoning module ProfilerService (146)
+[2016.11.30-18.28.44:192][309]LogModuleManager: Shutting down and abandoning module TaskGraph (145)
+[2016.11.30-18.28.44:192][309]LogModuleManager: Shutting down and abandoning module SlateRemote (144)
+[2016.11.30-18.28.44:192][309]LogModuleManager: Shutting down and abandoning module SteamVRController (143)
+[2016.11.30-18.28.44:192][309]LogModuleManager: Shutting down and abandoning module SteamVR (142)
+[2016.11.30-18.28.44:192][309]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (141)
+[2016.11.30-18.28.44:192][309]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (140)
+[2016.11.30-18.28.44:192][309]LogModuleManager: Shutting down and abandoning module OculusLibrary (139)
+[2016.11.30-18.28.44:192][309]LogModuleManager: Shutting down and abandoning module OculusInput (138)
+[2016.11.30-18.28.44:192][309]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (137)
+[2016.11.30-18.28.44:192][309]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (136)
+[2016.11.30-18.28.44:192][309]LogModuleManager: Shutting down and abandoning module CableComponent (135)
+[2016.11.30-18.28.44:192][309]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (134)
+[2016.11.30-18.28.44:192][309]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (132)
+[2016.11.30-18.28.44:192][309]LogModuleManager: Shutting down and abandoning module HTML5Networking (131)
+[2016.11.30-18.28.44:192][309]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (130)
+[2016.11.30-18.28.44:192][309]LogModuleManager: Shutting down and abandoning module GeometryCache (129)
+[2016.11.30-18.28.44:192][309]LogModuleManager: Shutting down and abandoning module AlembicLibrary (128)
+[2016.11.30-18.28.44:192][309]LogModuleManager: Shutting down and abandoning module AlembicImporter (127)
+[2016.11.30-18.28.44:192][309]LogModuleManager: Shutting down and abandoning module SuperSearch (126)
+[2016.11.30-18.28.44:192][309]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (125)
+[2016.11.30-18.28.44:192][309]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (124)
+[2016.11.30-18.28.44:192][309]LogModuleManager: Shutting down and abandoning module PluginBrowser (123)
+[2016.11.30-18.28.44:192][309]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (122)
+[2016.11.30-18.28.44:192][309]LogModuleManager: Shutting down and abandoning module EpicSurvey (121)
+[2016.11.30-18.28.44:193][309]LogModuleManager: Shutting down and abandoning module DesktopPlatform (120)
+[2016.11.30-18.28.44:193][309]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (119)
+[2016.11.30-18.28.44:193][309]LogModuleManager: Shutting down and abandoning module UObjectPlugin (118)
+[2016.11.30-18.28.44:193][309]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (117)
+[2016.11.30-18.28.44:193][309]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (116)
+[2016.11.30-18.28.44:193][309]LogModuleManager: Shutting down and abandoning module SourceControl (115)
+[2016.11.30-18.28.44:193][309]LogModuleManager: Shutting down and abandoning module GitSourceControl (114)
+[2016.11.30-18.28.44:193][309]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (113)
+[2016.11.30-18.28.44:193][309]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (112)
+[2016.11.30-18.28.44:193][309]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (111)
+[2016.11.30-18.28.44:193][309]LogModuleManager: Shutting down and abandoning module MeshPaint (110)
+[2016.11.30-18.28.44:193][309]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (109)
+[2016.11.30-18.28.44:193][309]LogModuleManager: Shutting down and abandoning module HotReload (108)
+[2016.11.30-18.28.44:193][309]LogModuleManager: Shutting down and abandoning module MainFrame (107)
+[2016.11.30-18.28.44:193][309]LogModuleManager: Shutting down and abandoning module LevelEditor (106)
+[2016.11.30-18.28.44:194][309]LogModuleManager: Shutting down and abandoning module ContentBrowser (105)
+[2016.11.30-18.28.44:194][309]LogModuleManager: Shutting down and abandoning module Paper2DEditor (104)
+[2016.11.30-18.28.44:194][309]LogModuleManager: Shutting down and abandoning module UdpMessaging (103)
+[2016.11.30-18.28.44:295][309]LogModuleManager: Shutting down and abandoning module TcpMessaging (102)
+[2016.11.30-18.28.44:396][309]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (101)
+[2016.11.30-18.28.44:396][309]LogModuleManager: Shutting down and abandoning module Paper2D (100)
+[2016.11.30-18.28.44:396][309]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (99)
+[2016.11.30-18.28.44:396][309]LogModuleManager: Shutting down and abandoning module WmfMedia (98)
+[2016.11.30-18.28.44:396][309]LogModuleManager: Shutting down and abandoning module MediaAssets (97)
+[2016.11.30-18.28.44:396][309]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (96)
+[2016.11.30-18.28.44:396][309]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (95)
+[2016.11.30-18.28.44:396][309]LogModuleManager: Shutting down and abandoning module VREditor (94)
+[2016.11.30-18.28.44:396][309]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (93)
+[2016.11.30-18.28.44:396][309]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (92)
+[2016.11.30-18.28.44:396][309]LogModuleManager: Shutting down and abandoning module FunctionalTesting (91)
+[2016.11.30-18.28.44:396][309]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (90)
+[2016.11.30-18.28.44:396][309]LogModuleManager: Shutting down and abandoning module Sequencer (89)
+[2016.11.30-18.28.44:398][309]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (88)
+[2016.11.30-18.28.44:398][309]LogModuleManager: Shutting down and abandoning module MessageLog (87)
+[2016.11.30-18.28.44:398][309]LogModuleManager: Shutting down and abandoning module AssetTools (86)
+[2016.11.30-18.28.44:398][309]LogModuleManager: Shutting down and abandoning module UMGEditor (85)
+[2016.11.30-18.28.44:398][309]LogModuleManager: Shutting down and abandoning module UMG (84)
+[2016.11.30-18.28.44:398][309]LogModuleManager: Shutting down and abandoning module SlateReflector (83)
+[2016.11.30-18.28.44:398][309]LogModuleManager: Shutting down and abandoning module Slate (82)
+[2016.11.30-18.28.44:398][309]LogModuleManager: Shutting down and abandoning module EditorStyle (81)
+[2016.11.30-18.28.44:399][309]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (80)
+[2016.11.30-18.28.44:399][309]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (79)
+[2016.11.30-18.28.44:399][309]LogModuleManager: Shutting down and abandoning module XAudio2 (78)
+[2016.11.30-18.28.44:399][309]LogModuleManager: Shutting down and abandoning module Networking (76)
+[2016.11.30-18.28.44:399][309]LogModuleManager: Shutting down and abandoning module Core (75)
+[2016.11.30-18.28.44:399][309]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (74)
+[2016.11.30-18.28.44:399][309]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2016.11.30-18.28.44:400][309]LogDirectoryWatcher: A directory notification for 'C:/Users/Dewz/Documents/Unreal Projects/Level_Design/Content/' was aborted.
+[2016.11.30-18.28.44:400][309]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2016.11.30-18.28.44:400][309]LogModuleManager: Shutting down and abandoning module AssetRegistry (73)
+[2016.11.30-18.28.44:573][309]LogModuleManager: Shutting down and abandoning module KismetCompiler (72)
+[2016.11.30-18.28.44:573][309]LogModuleManager: Shutting down and abandoning module PhysXFormats (71)
+[2016.11.30-18.28.44:573][309]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (70)
+[2016.11.30-18.28.44:573][309]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (69)
+[2016.11.30-18.28.44:573][309]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (68)
+[2016.11.30-18.28.44:573][309]LogModuleManager: Shutting down and abandoning module PropertyEditor (67)
+[2016.11.30-18.28.44:573][309]LogModuleManager: Shutting down and abandoning module MeshUtilities (66)
+[2016.11.30-18.28.44:573][309]LogModuleManager: Shutting down and abandoning module DerivedDataCache (65)
+[2016.11.30-18.28.44:581][309]LogDerivedDataCache: Shutdown
+[2016.11.30-18.28.44:581][309]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (64)
+[2016.11.30-18.28.44:581][309]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (63)
+[2016.11.30-18.28.44:581][309]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (62)
+[2016.11.30-18.28.44:581][309]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (61)
+[2016.11.30-18.28.44:581][309]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (60)
+[2016.11.30-18.28.44:581][309]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (59)
+[2016.11.30-18.28.44:581][309]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (58)
+[2016.11.30-18.28.44:581][309]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (57)
+[2016.11.30-18.28.44:581][309]LogModuleManager: Shutting down and abandoning module ImageWrapper (56)
+[2016.11.30-18.28.44:581][309]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (55)
+[2016.11.30-18.28.44:581][309]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (54)
+[2016.11.30-18.28.44:581][309]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (53)
+[2016.11.30-18.28.44:581][309]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (52)
+[2016.11.30-18.28.44:581][309]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (51)
+[2016.11.30-18.28.44:581][309]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (50)
+[2016.11.30-18.28.44:581][309]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (49)
+[2016.11.30-18.28.44:581][309]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (48)
+[2016.11.30-18.28.44:581][309]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (47)
+[2016.11.30-18.28.44:581][309]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (46)
+[2016.11.30-18.28.44:581][309]LogModuleManager: Shutting down and abandoning module Messaging (45)
+[2016.11.30-18.28.44:581][309]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (44)
+[2016.11.30-18.28.44:581][309]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (43)
+[2016.11.30-18.28.44:581][309]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (42)
+[2016.11.30-18.28.44:581][309]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (41)
+[2016.11.30-18.28.44:581][309]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (40)
+[2016.11.30-18.28.44:581][309]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (39)
+[2016.11.30-18.28.44:581][309]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (38)
+[2016.11.30-18.28.44:581][309]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (37)
+[2016.11.30-18.28.44:581][309]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (36)
+[2016.11.30-18.28.44:581][309]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (35)
+[2016.11.30-18.28.44:581][309]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (34)
+[2016.11.30-18.28.44:581][309]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (33)
+[2016.11.30-18.28.44:581][309]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (32)
+[2016.11.30-18.28.44:581][309]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (31)
+[2016.11.30-18.28.44:581][309]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (30)
+[2016.11.30-18.28.44:581][309]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (29)
+[2016.11.30-18.28.44:581][309]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (28)
+[2016.11.30-18.28.44:581][309]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (27)
+[2016.11.30-18.28.44:581][309]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (26)
+[2016.11.30-18.28.44:581][309]LogModuleManager: Shutting down and abandoning module TargetPlatform (25)
+[2016.11.30-18.28.44:581][309]LogModuleManager: Shutting down and abandoning module InputCore (24)
+[2016.11.30-18.28.44:581][309]LogModuleManager: Shutting down and abandoning module Settings (23)
+[2016.11.30-18.28.44:581][309]LogModuleManager: Shutting down and abandoning module OculusRift (22)
+[2016.11.30-18.28.44:581][309]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (21)
+[2016.11.30-18.28.44:581][309]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (20)
+[2016.11.30-18.28.44:581][309]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (18)
+[2016.11.30-18.28.44:581][309]LogOnline:Display: Unloading online subsystem: NULL
+[2016.11.30-18.28.44:582][309]LogModuleManager: Shutting down and abandoning module SSL (17)
+[2016.11.30-18.28.44:582][309]LogModuleManager: Shutting down and abandoning module HTTP (16)
+[2016.11.30-18.28.44:582][309]LogModuleManager: Shutting down and abandoning module XMPP (15)
+[2016.11.30-18.28.44:583][309]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2016.11.30-18.28.44:583][309]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2016.11.30-18.28.44:583][309]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2016.11.30-18.28.44:583][309]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2016.11.30-18.28.44:583][309]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2016.11.30-18.28.44:583][309]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2016.11.30-18.28.44:583][309]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2016.11.30-18.28.44:583][309]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.11.30-18.28.44:583][309]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.11.30-18.28.44:583][309]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.11.30-18.28.44:583][309]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.11.30-18.28.44:583][309]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.11.30-18.28.44:583][309]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.11.30-18.28.44:583][309]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.11.30-18.28.44:585][309]LogExit: Exiting.
+[2016.11.30-18.28.44:591][309]Log file closed, 11/30/16 18:28:44
